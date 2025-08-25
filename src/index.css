@@ -100,3 +100,32 @@ ul, ol {
   outline: 2px solid var(--color3);
   outline-offset: 2px;
 }
+
+
+/* Ocultar elementos visualmente pero que sigan siendo accesibles (para lectores de pantalla) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Barra de scroll */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color2); /* O el color que prefieras */
+  border-radius: 4px;
+}
+
+/* Transiciones suaves */
+a, button, input {
+  transition: all 0.3s ease-in-out;
+}
