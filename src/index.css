@@ -41,7 +41,15 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+body.dark {
+  --color1: #222222; /* un gris oscuro */
+  --color2: #f0f0f0; /* un blanco roto */
+  --color3: #00aaff; /* un azul más brillante */
+}
+
 
 /* Títulos */
 h1, h2, h3, h4, h5, h6 {
