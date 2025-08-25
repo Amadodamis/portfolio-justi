@@ -1,11 +1,13 @@
 export const content = {
   es: {
     home: {
-      title: "Portfolio de Arquitectura",
-      subtitle: "Un espacio para mostrar creatividad y técnica.",
-      welcomeMessage: "¡Bienvenida!",
-      projectsSection: "Proyectos recientes",
-      // ... otros textos en español
+      name: "justina spinoso",
+      nav: {
+        about: "sobre mi",
+        projects: "proyectos",
+        drawings: "dibujos",
+        contact: "contacto",
+      },
     },
     login: {
       title: "Acceso de Administrador",
@@ -17,11 +19,13 @@ export const content = {
   },
   en: {
     home: {
-      title: "Architecture Portfolio",
-      subtitle: "A space to showcase creativity and technical skill.",
-      welcomeMessage: "Welcome!",
-      projectsSection: "Recent Projects",
-      // ... otros textos en inglés
+      name: "justina spinoso",
+      nav: {
+        about: "about me",
+        projects: "projects",
+        drawings: "drawings",
+        contact: "contact",
+      },
     },
     login: {
       title: "Admin Access",

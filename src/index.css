@@ -2,6 +2,12 @@
    INDEX.CSS 
    =============================== */
 
+   /* Fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+
+
+
+
 /* Variables globales */
 :root {
   /* Colores */
@@ -10,7 +16,7 @@
   --color3: #00aaff; /* azul */
 
   /* Fuentes */
-  --font-title: "Segoe UI", Helvetica, Arial, sans-serif;
+--font-title: 'Poppins', sans-serif;
   --font-subtitle: "Roboto", Helvetica, Arial, sans-serif;
   --font-text: "Open Sans", Helvetica, Arial, sans-serif;
 
