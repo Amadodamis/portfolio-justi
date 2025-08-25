@@ -1,0 +1,102 @@
+/* ===============================
+   INDEX.CSS 
+   =============================== */
+
+/* Variables globales */
+:root {
+  /* Colores */
+  --color1: #ffffff; /* blanco */
+  --color2: #000000; /* negro */
+  --color3: #007bff; /* azul */
+
+  /* Fuentes */
+  --font-title: "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-subtitle: "Roboto", Helvetica, Arial, sans-serif;
+  --font-text: "Open Sans", Helvetica, Arial, sans-serif;
+
+  /* Tipografía base */
+  --font-size-base: 16px;
+  --line-height-base: 1.5;
+}
+
+/* Reset moderno */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: var(--font-text);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color2);
+  background-color: var(--color1);
+
+  /* Optimización tipográfica */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Subtítulos */
+h3, h4 {
+  font-family: var(--font-subtitle);
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* Imágenes */
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Botones e inputs */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+
+/* Quitar listas viejas */
+ul, ol {
+  list-style: none;
+}
+
+/* Accesibilidad mínima */
+:focus {
+  outline: 2px solid var(--color3);
+  outline-offset: 2px;
+}
