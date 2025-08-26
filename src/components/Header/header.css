@@ -1,55 +1,39 @@
-.fixed-header {
+.main-nav {
+  width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 15%;
+  width: 70%;
   z-index: 1000;
-  padding: 2.5rem 5%;
-  display: flex; /* Nuevo: usamos flex para alinear horizontalmente */
-  flex-direction: column; /* Nuevo: apilamos los elementos verticalmente */
-  justify-content: flex-start;
-  align-items: flex-start; /* Alineamos todo a la izquierda */
-  background-color: var(--color1);
-}
-
-.name-title {
-  font-family: var(--font-title);
-  font-weight: 900;
-  font-size: 3rem;
-  color: var(--color2);
-  line-height: 1;
-  text-transform: uppercase;
-  letter-spacing: -2px; /* Espaciado negativo para un efecto más compacto */
-}
-
-.main-nav {
-  /* Nuevo: centramos la navegación con un ancho fijo y margin-left: auto para alinearla al final */
-  width: 100%;
-  max-width: 600px; /* Ajusta este valor si es necesario */
-  margin-top: 1rem;
+  padding-top: 2.5rem;
+  background-color: rgba(240, 240, 240, 0.7);
+  border-bottom: 1px var(--color2) solid;
 }
 
 .main-nav ul {
   display: flex;
-  justify-content: flex-end; /* Alinea los enlaces a la derecha */
+  justify-content: space-around;
   list-style: none;
-  gap: 2rem;
 }
 
-.main-nav a {
-  font-family: var(--font-text);
+
+.nav-hover {
+  font-family: var(--font-title);
   font-weight: 500;
   text-transform: uppercase;
   font-size: 1rem;
   color: var(--color2);
-  transition: color 0.3s ease;
+  text-decoration: none
 }
 
-.main-nav a:hover {
-  color: var(--color3);
+.proyectos-text {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0px;
+  color:var(--color3)
 }
 
-.active-link {
-  color: var(--color3) !important;
-  font-weight: bold;
+.nav-hover:hover{
+  color:var(--color3)
 }

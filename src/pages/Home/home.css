@@ -1,4 +1,16 @@
 
 .home-container {
-  padding-top: 10rem;
+  padding-top: 5rem;
+}
+
+
+.name-title {
+  font-family: var(--font-title);
+  font-weight: 300;
+  font-size: 11rem;
+  color: var(--color2);
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: -2px; 
+  text-align: center;
 }

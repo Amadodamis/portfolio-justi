@@ -1,4 +1,33 @@
-.section-content {
-  min-height: 100vh;
-  padding: 2rem 5%;
+/* ===============================
+   SOBREMI.CSS
+   =============================== */
+.about-me-section {
+  padding: 5rem 5% 2rem;
+  /* El padding-top debe ser mayor que la altura del header para que el contenido no quede debajo de él */
+  padding-top: 10rem;
+}
+
+.about-me-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  /* Dos columnas de texto y una para la imagen */
+  grid-gap: 2rem;
+  /* Espacio entre columnas */
+  align-items: center;
+}
+
+.text-column {
+  font-family: var(--font-text);
+  line-height: var(--line-height-base);
+  color: var(--color2);
+  
+}
+
+
+
+.about-me-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
 }

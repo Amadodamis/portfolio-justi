@@ -13,10 +13,10 @@
   /* Colores */
   --color1: #f0f0f0; /* blanco */
   --color2: #222222; /* negro */
-  --color3: #00aaff; /* azul */
+  --color3: #ef6a25; /* azul */
 
   /* Fuentes */
---font-title: 'Poppins', sans-serif;
+--font-title: 'Clash Grotesk', sans-serif;
   --font-subtitle: "Roboto", Helvetica, Arial, sans-serif;
   --font-text: "Open Sans", Helvetica, Arial, sans-serif;
 
@@ -61,23 +61,12 @@ body.dark {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-title);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1;
 }
 
-/* Subtítulos */
-h3, h4 {
-  font-family: var(--font-subtitle);
-}
 
-/* Links */
-a {
-  color: inherit;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
+
+
 
 /* Imágenes */
 img,
@@ -109,26 +98,6 @@ ul, ol {
   list-style: none;
 }
 
-/* Accesibilidad mínima */
-:focus {
-  outline: 2px solid var(--color3);
-  outline-offset: 2px;
-}
-
-
-/* Ocultar elementos visualmente pero que sigan siendo accesibles (para lectores de pantalla) */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
 /* Barra de scroll */
 ::-webkit-scrollbar {
   width: 8px;
@@ -137,9 +106,4 @@ ul, ol {
 ::-webkit-scrollbar-thumb {
   background-color: var(--color2); /* O el color que prefieras */
   border-radius: 4px;
-}
-
-/* Transiciones suaves */
-a, button, input {
-  transition: all 0.3s ease-in-out;
 }

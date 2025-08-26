@@ -17,6 +17,7 @@ function Home() {
 
       {/* 4. Título y Navbar fijos */}
       <Header texts={homeTexts} />
+      <h1 className="name-title">Justina Spinoso</h1>
 
       {/* Contenido principal de la página */}
       <main className="main-content">
