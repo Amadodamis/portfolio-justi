@@ -9,6 +9,7 @@ function Proyectos({ texts }) {
         <div className="scroll-item red-box"></div>
         <div className="scroll-item red-box"></div>
         <div className="scroll-item red-box"></div>
+        <div className="scroll-item red-box"></div>
 
       </div>
     </section>

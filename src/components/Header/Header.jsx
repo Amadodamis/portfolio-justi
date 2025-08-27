@@ -13,7 +13,7 @@ function Header({ texts }) {
                 <li><a className="nav-hover" href="#drawings">{texts.nav.drawings}</a></li>
                 <li><a className="nav-hover" href="#contact">{texts.nav.contact}</a></li>
                
-               <li><a className="nav-hover" href="#Cv">CV</a></li>
+               <li><a className="nav-hover" href="#Cv">cv</a></li>
 
                 <li><LanguageButton /></li>
             </ul>

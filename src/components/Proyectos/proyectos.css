@@ -1,12 +1,14 @@
 .section-content {
     min-height: 100vh;
-    padding: 2rem 5%;
-    
+    padding-left: 15%;
+    padding-right: 15%;
+
 }
 
 .horizontal-scroll-container {
     display: flex;
     overflow-x: auto;
+    justify-content: space-between;
     gap: 2rem;
     padding: 1rem 0;
 }

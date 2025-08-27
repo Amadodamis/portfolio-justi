@@ -8,8 +8,7 @@ function LanguageButton() {
       style={{
         fontFamily: 'var(--font-title)',
         fontWeight: 500,
-        textTransform: 'uppercase',
-        fontSize: '1rem',
+        fontSize: '1.2rem',
         color: 'var(--color2)',
         transition: 'color 0.4s ease',
         textDecoration: 'none'
@@ -18,7 +17,7 @@ function LanguageButton() {
 
 
 
-      {language === 'es' ? 'ENG' : 'ESP'}
+      {language === 'es' ? 'english' : 'español'}
     </button >
   );
 }

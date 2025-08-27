@@ -2,7 +2,8 @@
    SOBREMI.CSS
    =============================== */
 .about-me-section {
-  padding: 5rem 5% 2rem;
+  padding-left: 15%;
+  padding-right: 15%;
   /* El padding-top debe ser mayor que la altura del header para que el contenido no quede debajo de él */
   padding-top: 10rem;
 }
