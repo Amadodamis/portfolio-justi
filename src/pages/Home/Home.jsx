@@ -14,22 +14,13 @@ function Home() {
 
   return (
     <div className="home-container">
-
-      {/* 4. Título y Navbar fijos */}
       <Header texts={homeTexts} />
       <h1 className="name-title">Justina Spinoso</h1>
-
-      {/* Contenido principal de la página */}
+      
       <main className="main-content">
-        {/* Sección de bienvenida */}
         <SobreMi />
-
-        {/* Sección de proyectos con scroll horizontal */}
         <Proyectos texts={homeTexts} />
-
-        {/* Sección de dibujos con scroll horizontal */}
         <Dibujos texts={homeTexts} />
-
       </main>
 
     </div>

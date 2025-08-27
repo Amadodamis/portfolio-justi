@@ -1,24 +1,6 @@
-.section-content {
+.proyectos-section{
+    padding-top: 5%;
+    padding-left:15% ;
+    padding-right:15% ;
     min-height: 100vh;
-    padding-left: 15%;
-    padding-right: 15%;
-
-}
-
-.horizontal-scroll-container {
-    display: flex;
-    overflow-x: auto;
-    justify-content: space-between;
-    gap: 2rem;
-    padding: 1rem 0;
-}
-
-.scroll-item {
-    flex-shrink: 0;
-    width: 300px;
-    height: 300px;
-}
-
-.red-box {
-    background-color: red;
 }

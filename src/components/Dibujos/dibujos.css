@@ -1,9 +1,8 @@
-.section-content {
-    min-height: 100vh;
+.dibujos-section {
+    padding-top: 5%;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 5%;
-
+    min-height: 100vh;
 }
 
 .horizontal-scroll-container {
@@ -12,41 +11,5 @@
     justify-content: space-between;
     gap: 2rem;
     padding: 1rem 0;
-}
 
-.scroll-item {
-    flex-shrink: 0;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    /* Muy importante para posicionar la capa */
-    overflow: hidden;
-    /* Para que la capa no se salga del contenedor */
-}
-
-.red-box {
-    background-color: red;
-}
-
-/* 1. Crea la capa superpuesta con el pseudo-elemento */
-.red-box::after {
-    content: '';
-    /* Obligatorio para que el pseudo-elemento sea visible */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    opacity: 0;
-    /* Por defecto la capa es invisible */
-    transition: opacity 0.3s ease;
-    /* Transición para un efecto suave */
-}
-
-/* 2. Haz visible la capa al pasar el mouse */
-.red-box:hover::after {
-    cursor: pointer;
-    opacity: 0.6;
-    /* Cambia la opacidad al pasar el mouse */
 }

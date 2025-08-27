@@ -53,14 +53,14 @@ body {
 body.dark {
   --color1: #222222; /* un gris oscuro */
   --color2: #f0f0f0; /* un blanco roto */
-  --color3: #00aaff; /* un azul más brillante */
+  --color3: #00aaff; 
 }
 
 
 /* Títulos */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-title);
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
 }
 

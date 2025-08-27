@@ -1,18 +1,24 @@
-import './dibujos.css';
+import React from 'react';
+import './Dibujos.css';
+import Cards from '../Cards/Cards';
+import { drawingsData } from '../../JS/database';
 
 function Dibujos({ texts }) {
   return (
-    <section id="drawings" className="section-content">
-          <h2>{texts.nav.drawings}</h2>
-          {/* 5. Scroll horizontal con cajas rojas */}
-          <div className="horizontal-scroll-container">
-            <div className="scroll-item red-box"></div>
-            <div className="scroll-item red-box"></div>
-            <div className="scroll-item red-box"></div>
-            <div className="scroll-item red-box"></div>
-          </div>
-        </section>
-  )
+    <section id="drawings" className="dibujos-section">
+      <h2>{texts.nav.drawings}</h2>
+      <div className="horizontal-scroll-container">
+        {drawingsData.map((item, index) => (
+          <Cards
+            key={index}
+            image={item.image}
+            title={item.title}
+            description={item.description}
+          />
+        ))}
+      </div>
+    </section>
+  );
 }
 
-export default Dibujos
+export default Dibujos;
