@@ -1,0 +1,28 @@
+.bitacora-section {
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: space-between;
+}
+
+.bitacora-section h2 {
+    /* Aquí puedes agregar estilos si necesitas más control sobre el título */
+    align-self: flex-start;
+    margin-bottom: 2rem; /* Agrega espacio debajo del título */
+    color:var(--color3)
+}
+
+.bitacora-container {
+    display: grid;
+    /* Define 3 columnas de igual tamaño */
+    grid-template-columns: repeat(3, 1fr);
+    /* Agrega un espacio entre las celdas */
+    gap: 40px;
+    justify-content: center; /* Centra las cards horizontalmente */
+    
+    
+}

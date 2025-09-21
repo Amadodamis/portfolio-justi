@@ -6,7 +6,6 @@ function Cards({ image, title, description }) {
     <div className="card-item scroll-item">
       <img src={image} alt={title} />
       <h3>{title}</h3>
-      <p>{description}</p>
     </div>
   );
 }

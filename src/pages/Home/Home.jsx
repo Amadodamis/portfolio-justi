@@ -4,7 +4,7 @@ import { useGlobalContext } from "../../context/GlobalContext";
 import Header from "../../components/Header/Header";
 import SobreMi from "../../components/SobreMi/SobreMi";
 import Proyectos from "../../components/Proyectos/Proyectos";
-import Dibujos from "../../components/Dibujos/Dibujos";
+import Bitacora from "../../components/Bitacora/Bitacora";
 
 import "./Home.css";
 
@@ -18,7 +18,7 @@ function Home() {
       <main className="main-content">   
         <SobreMi />
         <Proyectos texts={homeTexts} />
-        <Dibujos texts={homeTexts} />
+        <Bitacora texts={homeTexts} />
       </main>
 
     </div>
@@ -27,8 +27,3 @@ function Home() {
 
 export default Home;
 
-/*
-<Proyectos texts={homeTexts} />
-        <Dibujos texts={homeTexts} />
-
-*/

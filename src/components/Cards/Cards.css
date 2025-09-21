@@ -9,11 +9,12 @@
   padding-top: 15px;
   margin-top: 40px;
   margin-bottom: 40px;
+ 
 }
 
 .card-item img {
   /* El contenedor de la imagen ahora tiene un borde negro de 1px */
-  padding: 1px;
+  padding: 0px;
   border: 1px solid black;
   width: 150px;
   height: 150px;
@@ -35,11 +36,17 @@
 .card-item h3 {
   margin-top: 10px;
   z-index: 2;
-  font-weight: 400;
+  font-weight: 500;
   font-family: var(--font-title);
+  white-space: pre-line;
+  line-height: 1.3;
+  text-align: center;
 }
 
 .card-item p {
   z-index: 2;
+  
   font-family: var(--font-title);
+  
+  
 }

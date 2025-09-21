@@ -17,7 +17,7 @@ function LanguageButton() {
 
 
 
-      {language === 'es' ? 'english' : 'español'}
+      {language === 'es' ? 'eng' : 'esp'}
     </button >
   );
 }
