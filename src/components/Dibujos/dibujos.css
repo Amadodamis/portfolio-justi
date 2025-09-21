@@ -4,13 +4,3 @@
     padding-right:15% ;
     min-height: 100vh;
 }
-
-.horizontal-scroll-container {
-    display: flex;
-    overflow-x: auto;
-    justify-content: space-between;
-    gap: 2rem;
-    padding: 1rem 0;
-
-}
-

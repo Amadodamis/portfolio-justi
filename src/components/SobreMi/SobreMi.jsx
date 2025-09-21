@@ -1,26 +1,32 @@
-import React from 'react';
 import { content } from '../../JS/textos';
 import { useGlobalContext } from '../../context/GlobalContext';
 import './SobreMi.css';
-import fotoAboutMe from '../../assets/imgs/foto_about_me.png';
+import fotoAboutMe from '../../assets/imgs/foto_about_me.jpg';
 
 function SobreMi() {
     const { language } = useGlobalContext();
     const sobreMiTexts = content[language].home.sobreMi;
 
     return (
-        <section id="about" className="about-me-section">
-            <div className="about-me-container">
-                <div className="text-column">
-                    <p>{sobreMiTexts.text1}</p>
-                </div>
-                <div className="text-column">
-                    <p>{sobreMiTexts.text2}</p>
-                </div>
-                <div className="image-column">
-                    <img src={fotoAboutMe} alt="Justina Spinoso" className="about-me-image" />
-                </div>
+        <section  className="about-me-section">
+
+            <h1 className="name-title">Justina Spinoso</h1>
+
+            <div className='container-foto-about-me'>
+                <img src={fotoAboutMe} alt='foto jus' className='ph-jus' />
+
             </div>
+
+            <div id="about" className="container-texts-about">
+
+                <p className="text-aboutme">
+                    {sobreMiTexts.text1}
+                </p>
+                <p className="text-aboutme">
+                    {sobreMiTexts.text2}
+                </p>
+            </div>
+
         </section>
     );
 }

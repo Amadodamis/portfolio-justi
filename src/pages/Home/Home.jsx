@@ -15,9 +15,7 @@ function Home() {
   return (
     <div className="home-container">
       <Header texts={homeTexts} />
-      <h1 className="name-title">Justina Spinoso</h1>
-      
-      <main className="main-content">
+      <main className="main-content">   
         <SobreMi />
         <Proyectos texts={homeTexts} />
         <Dibujos texts={homeTexts} />
@@ -28,3 +26,9 @@ function Home() {
 }
 
 export default Home;
+
+/*
+<Proyectos texts={homeTexts} />
+        <Dibujos texts={homeTexts} />
+
+*/

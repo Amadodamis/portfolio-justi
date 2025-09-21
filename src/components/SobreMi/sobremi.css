@@ -4,31 +4,61 @@
 .about-me-section {
   padding-left: 15%;
   padding-right: 15%;
-  /* El padding-top debe ser mayor que la altura del header para que el contenido no quede debajo de él */
-  padding-top: 10rem;
-}
+  padding-top: 4.5em;
 
-.about-me-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1.5fr;
-  /* Dos columnas de texto y una para la imagen */
-  grid-gap: 2rem;
-  /* Espacio entre columnas */
-  align-items: center;
-}
-
-.text-column {
-  font-family: var(--font-text);
-  line-height: var(--line-height-base);
-  color: var(--color2);
   
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
 
-.about-me-image {
+.name-title {
+  font-family: var(--font-title);
+  font-weight: 300;
+  font-size: 6.5rem;
+  color: var(--color2);
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  padding-top: 2%;
+}
+
+
+.text-aboutme {
+  white-space: pre-line;
+  line-height: var(--line-height-base);
+
+  font-weight: 400;
+  font-family: var(--font-title);
+  color: var(--color2);
+  width: 48%;
+  text-align: justify;
+}
+
+
+.container-foto-about-me {
+  width: 50%;
+  align-self: flex-end;
+}
+
+.ph-jus {
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
+  margin-bottom: 10%;
+}
+
+.container-texts-about{
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 5%;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  border-radius: 15px;
+  background-color: rgba(240, 240, 240, 0.3);
 }

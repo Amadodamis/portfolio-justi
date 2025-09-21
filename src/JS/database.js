@@ -16,29 +16,33 @@ import proyecto5 from '../assets/imgs/proyectos/proyecto5.png';
 export const projectsData = [
   {
     image: proyecto1,
-    title: 'Proyecto 1',
-    description: 'Una descripción del proyecto.',
+    title: 'Fabrica Performatica',
+    description: 'Proyecto final de carrera - 2025',
   },
   {
     image: proyecto2,
-    title: 'Proyecto 2',
-    description: 'Una descripción del proyecto.',
+     title: 'Fabrica Performatica',
+    description: 'Proyecto final de carrera - 2025',
   },
   {
     image: proyecto3,
-    title: 'Proyecto 3',
-    description: 'Una descripción del proyecto.',
+    title: 'Fabrica Performatica',
+    description: 'Proyecto final de carrera - 2025',
   },
   {
     image: proyecto4,
-    title: 'Proyecto 4',
-    description: 'Una descripción del proyecto.',
+     title: 'Fabrica Performatica',
+    description: 'Proyecto final de carrera - 2025',
   },
   {
     image: proyecto5,
-    title: 'Proyecto 5',
-    description: 'Una descripción del proyecto.',
-  },
+     title: 'Fabrica Performatica',
+    description: 'Proyecto final de carrera - 2025',
+  },{
+   image: proyecto1,
+    title: 'Fabrica Performatica',
+    description: 'Proyecto final de carrera - 2025',
+  }
 ];
 
 // Array de datos para la sección de dibujos

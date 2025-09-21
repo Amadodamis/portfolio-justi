@@ -7,7 +7,7 @@ function Proyectos({ texts }) {
   return (
     <section id="projects" className="proyectos-section">
       <h2>{texts.nav.projects}</h2>
-      <div className="horizontal-scroll-container">
+      <div className="proyectos-container">
         {projectsData.map((item, index) => (
           <Cards
             key={index}

@@ -6,7 +6,7 @@
   width: 70%;
   z-index: 1000;
   padding-top: 2.5rem;
-  background-color: rgba(240, 240, 240, 0.7);
+  background-color: rgba(240, 240, 240, 0.3);
   border-bottom: 1px var(--color2) solid;
 }
 

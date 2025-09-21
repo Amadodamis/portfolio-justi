@@ -11,9 +11,9 @@
 /* Variables globales */
 :root {
   /* Colores */
-  --color1: #f0f0f0; /* blanco */
+  --color1: #ffffff; /* blanco */
   --color2: #222222; /* negro */
-  --color3: #ef6a25; /* azul */
+  --color3: #0100ff; /* azul */
 
   /* Fuentes */
 --font-title: 'Clash Grotesk', sans-serif;
@@ -52,7 +52,7 @@ body {
 
 body.dark {
   --color1: #222222; /* un gris oscuro */
-  --color2: #f0f0f0; /* un blanco roto */
+  --color2: #f0f0f0 /* un blanco roto */
   --color3: #00aaff; 
 }
 

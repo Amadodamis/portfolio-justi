@@ -7,7 +7,7 @@ function Dibujos({ texts }) {
   return (
     <section id="drawings" className="dibujos-section">
       <h2>{texts.nav.drawings}</h2>
-      <div className="horizontal-scroll-container">
+      <div className="dibujos-container">
         {drawingsData.map((item, index) => (
           <Cards
             key={index}
