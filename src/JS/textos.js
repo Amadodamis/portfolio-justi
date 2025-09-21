@@ -3,9 +3,9 @@ export const content = {
     home: {
       name: "justina spinoso",
       nav: {
-        about: "sobre mi",
+        about: "sobre mí",
         projects: "proyectos",
-        bitacora: "bitacora",
+        bitacora: "bitácora",
         contact: "contacto",
         cv:"curriculum"
       },
@@ -40,7 +40,7 @@ Entiendo que cada proyecto debe concebirse con conciencia del entorno en el que 
       nav: {
         about: "about me",
         projects: "projects",
-        bitacora: "bitacora",
+        bitacora: "binnacle",
         contact: "contact",
         cv:"resume",
       },

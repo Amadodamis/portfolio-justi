@@ -81,7 +81,7 @@ export const projectsData = [
   },
   {
     image: proyecto4,
-    title: `Estacion fluvial
+    title: `Estación fluvial
     2022`,
     description: '',
   },
