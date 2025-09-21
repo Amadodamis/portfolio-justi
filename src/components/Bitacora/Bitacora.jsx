@@ -29,7 +29,7 @@ function Bitacora({ texts }) {
   };
 
   // Nueva lógica para determinar si hay menos de 6 ítems
-  const lessThanSixItems = currentItems.length < itemsPerPage;
+  const alignArrows = currentItems.length < 3;
 
   return (
     <section id="bitacora" className="bitacora-section">
@@ -41,7 +41,7 @@ function Bitacora({ texts }) {
           src={arrowLeft}
           alt="icon-arrow-left-alt"
           //  Aplicación de la clase condicional
-          className={`icon-arrow ${lessThanSixItems ? 'align-end' : ''}`}
+          className={`icon-arrow ${alignArrows ? 'align-end' : ''}`}
           onClick={handlePrev}
         />
 
@@ -66,7 +66,7 @@ function Bitacora({ texts }) {
           src={arrowRight}
           alt="icon-arrow-right-alt"
           // 👈 Aplicación de la clase condicional
-          className={`icon-arrow ${lessThanSixItems ? 'align-end' : ''}`}
+         className={`icon-arrow ${alignArrows ? 'align-end' : ''}`}
           onClick={handleNext}
         />
       </div>

@@ -90,7 +90,9 @@ export const projectsData = [
     title: `Ciudad vertical
     2023`,
     description: '',
-  },
+    
+  }
+    
 ];
 
 // Array de datos para la sección de bitacora
