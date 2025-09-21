@@ -5,29 +5,45 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra el contenido verticalmente */
-    align-items: space-between;
+    align-items: flex-start;   /* 👈 el contenido arranca arriba */
+    justify-content: flex-start; /* 👈 evita que se centre */
 }
 
 .bitacora-section h2 {
-    /* Aquí puedes agregar estilos si necesitas más control sobre el título */
-    align-self: flex-start;
-    margin-bottom: 2rem; /* Agrega espacio debajo del título */
-    color:var(--color3)
+    margin-bottom: 2rem;
+    color: var(--color3);
+}
+
+.bitacora-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
 }
 
 .bitacora-container {
     display: grid;
-    /* Define 3 columnas de igual tamaño */
     grid-template-columns: repeat(3, 1fr);
-    /* Agrega un espacio entre las celdas */
     gap: 40px;
-    justify-content: center; /* Centra las cards horizontalmente */
-       
+    justify-content: center;
+    flex: 1;
 }
 
+/* Flechas */
+.icon-arrow {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
 
-.icon-arrow{
-    width: 15px;
-    height: 15px;
+/* Nuevo estilo para alinear al final */
+.icon-arrow.align-end {
+ align-self: flex-end;
+}
+
+/* Placeholders invisibles para mantener la grilla en 6 */
+.placeholder {
+    visibility: hidden;
 }
