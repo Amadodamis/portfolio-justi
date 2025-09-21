@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Proyectos.css';
 import Cards from '../Cards/Cards';
 import { projectsData } from '../../JS/database';

@@ -62,284 +62,289 @@ import proyecto5 from '../assets/imgs/proyectos/ciudad_vertical/ciudad_vertical1
 export const projectsData = [
   {
     image: proyecto1,
-    title: 'Fábrica Performática',
+    title: `Fábrica Performática
+    2024`,
     description: 'Centro experimental y educativo para el arte del cuerpo en movimiento',
   },
   {
     image: proyecto2,
-     title:  `Plan maestro : 
-     Zona portuaria Mar Del Plata `,
-    description: 'Proyecto final de carrera - 2025',
+    title: `Plan maestro : 
+     Zona portuaria Mar Del Plata 
+     2023`,
+    description: '',
   },
   {
     image: proyecto3,
-    title: 'Vivienda colectiva',
-    description: 'Proyecto final de carrera - 2025',
+    title: `Vivienda colectiva
+    2022`,
+    description: '',
   },
   {
     image: proyecto4,
-     title: 'Estacion fluvial',
-    description: 'Proyecto final de carrera - 2025',
+    title: `Estacion fluvial
+    2022`,
+    description: '',
   },
   {
     image: proyecto5,
-     title: 'Ciudad vertical',
-    description: 'Proyecto final de carrera - 2025',
+    title: `Ciudad vertical
+    2023`,
+    description: '',
   },
 ];
 
 // Array de datos para la sección de bitacora
 export const bitacoraData = [
- {
-  image: bitacora1,
-  title: '1. ',
-  description: '',
-},
-{
-  image: bitacora2,
-  title: '2. ',
-  description: '',
-},
-{
-  image: bitacora3,
-  title: '3. ',
-  description: '',
-},
-{
-  image: bitacora4,
-  title: '4. ',
-  description: '',
-},
-{
-  image: bitacora5,
-  title: '5. ',
-  description: '',
-},
-{
-  image: bitacora6,
-  title: '6. ',
-  description: '',
-},
-{
-  image: bitacora7,
-  title: '7. ',
-  description: '',
-},
-{
-  image: bitacora8,
-  title: '8. ',
-  description: '',
-},
-{
-  image: bitacora9,
-  title: '9. ',
-  description: '',
-},
-{
-  image: bitacora10,
-  title: '10. ',
-  description: '',
-},
-{
-  image: bitacora11,
-  title: '11. ',
-  description: '',
-},
-{
-  image: bitacora12,
-  title: '12. ',
-  description: '',
-},
-{
-  image: bitacora13,
-  title: '13. ',
-  description: '',
-},
-{
-  image: bitacora14,
-  title: '14. ',
-  description: '',
-},
-{
-  image: bitacora15,
-  title: '15. ',
-  description: '',
-},
-{
-  image: bitacora16,
-  title: '16. ',
-  description: '',
-},
-{
-  image: bitacora17,
-  title: '17. ',
-  description: '',
-},
-{
-  image: bitacora18,
-  title: '18. ',
-  description: '',
-},
-{
-  image: bitacora19,
-  title: '19. ',
-  description: '',
-},
-{
-  image: bitacora20,
-  title: '20. ',
-  description: '',
-},
-{
-  image: bitacora21,
-  title: '21. ',
-  description: '',
-},
-{
-  image: bitacora22,
-  title: '22. ',
-  description: '',
-},
-{
-  image: bitacora23,
-  title: '23. ',
-  description: '',
-},
-{
-  image: bitacora24,
-  title: '24. ',
-  description: '',
-},
-{
-  image: bitacora25,
-  title: '25. ',
-  description: '',
-},
-{
-  image: bitacora26,
-  title: '26. ',
-  description: '',
-},
-{
-  image: bitacora27,
-  title: '27. ',
-  description: '',
-},
-{
-  image: bitacora28,
-  title: '28. ',
-  description: '',
-},
-{
-  image: bitacora29,
-  title: '29. ',
-  description: '',
-},
-{
-  image: bitacora30,
-  title: '30. ',
-  description: '',
-},
-{
-  image: bitacora31,
-  title: '31. ',
-  description: '',
-},
-{
-  image: bitacora32,
-  title: '32. ',
-  description: '',
-},
-{
-  image: bitacora33,
-  title: '33. ',
-  description: '',
-},
-{
-  image: bitacora34,
-  title: '34. ',
-  description: '',
-},
-{
-  image: bitacora35,
-  title: '35. ',
-  description: '',
-},
-{
-  image: bitacora36,
-  title: '36. ',
-  description: '',
-},
-{
-  image: bitacora37,
-  title: '37. ',
-  description: '',
-},
-{
-  image: bitacora38,
-  title: '38. ',
-  description: '',
-},
-{
-  image: bitacora39,
-  title: '39. ',
-  description: '',
-},
-{
-  image: bitacora40,
-  title: '40. ',
-  description: '',
-},
-{
-  image: bitacora41,
-  title: '41. ',
-  description: '',
-},
-{
-  image: bitacora42,
-  title: '42. ',
-  description: '',
-},
-{
-  image: bitacora43,
-  title: '43. ',
-  description: '',
-},
-{
-  image: bitacora44,
-  title: '44. ',
-  description: '',
-},
-{
-  image: bitacora45,
-  title: '45. ',
-  description: '',
-},
-{
-  image: bitacora46,
-  title: '46. ',
-  description: '',
-},
-{
-  image: bitacora47,
-  title: '47. ',
-  description: '',
-},
-{
-  image: bitacora48,
-  title: '48. ',
-  description: '',
-},
-{
-  image: bitacora49,
-  title: '49. ',
-  description: '',
-},
-{
-  image: bitacora50,
-  title: '50. ',
-  description: '',
-},
+  {
+    image: bitacora1,
+    title: '1. ',
+    description: '',
+  },
+  {
+    image: bitacora2,
+    title: '2. ',
+    description: '',
+  },
+  {
+    image: bitacora3,
+    title: '3. ',
+    description: '',
+  },
+  {
+    image: bitacora4,
+    title: '4. ',
+    description: '',
+  },
+  {
+    image: bitacora5,
+    title: '5. ',
+    description: '',
+  },
+  {
+    image: bitacora6,
+    title: '6. ',
+    description: '',
+  },
+  {
+    image: bitacora7,
+    title: '7. ',
+    description: '',
+  },
+  {
+    image: bitacora8,
+    title: '8. ',
+    description: '',
+  },
+  {
+    image: bitacora9,
+    title: '9. ',
+    description: '',
+  },
+  {
+    image: bitacora10,
+    title: '10. ',
+    description: '',
+  },
+  {
+    image: bitacora11,
+    title: '11. ',
+    description: '',
+  },
+  {
+    image: bitacora12,
+    title: '12. ',
+    description: '',
+  },
+  {
+    image: bitacora13,
+    title: '13. ',
+    description: '',
+  },
+  {
+    image: bitacora14,
+    title: '14. ',
+    description: '',
+  },
+  {
+    image: bitacora15,
+    title: '15. ',
+    description: '',
+  },
+  {
+    image: bitacora16,
+    title: '16. ',
+    description: '',
+  },
+  {
+    image: bitacora17,
+    title: '17. ',
+    description: '',
+  },
+  {
+    image: bitacora18,
+    title: '18. ',
+    description: '',
+  },
+  {
+    image: bitacora19,
+    title: '19. ',
+    description: '',
+  },
+  {
+    image: bitacora20,
+    title: '20. ',
+    description: '',
+  },
+  {
+    image: bitacora21,
+    title: '21. ',
+    description: '',
+  },
+  {
+    image: bitacora22,
+    title: '22. ',
+    description: '',
+  },
+  {
+    image: bitacora23,
+    title: '23. ',
+    description: '',
+  },
+  {
+    image: bitacora24,
+    title: '24. ',
+    description: '',
+  },
+  {
+    image: bitacora25,
+    title: '25. ',
+    description: '',
+  },
+  {
+    image: bitacora26,
+    title: '26. ',
+    description: '',
+  },
+  {
+    image: bitacora27,
+    title: '27. ',
+    description: '',
+  },
+  {
+    image: bitacora28,
+    title: '28. ',
+    description: '',
+  },
+  {
+    image: bitacora29,
+    title: '29. ',
+    description: '',
+  },
+  {
+    image: bitacora30,
+    title: '30. ',
+    description: '',
+  },
+  {
+    image: bitacora31,
+    title: '31. ',
+    description: '',
+  },
+  {
+    image: bitacora32,
+    title: '32. ',
+    description: '',
+  },
+  {
+    image: bitacora33,
+    title: '33. ',
+    description: '',
+  },
+  {
+    image: bitacora34,
+    title: '34. ',
+    description: '',
+  },
+  {
+    image: bitacora35,
+    title: '35. ',
+    description: '',
+  },
+  {
+    image: bitacora36,
+    title: '36. ',
+    description: '',
+  },
+  {
+    image: bitacora37,
+    title: '37. ',
+    description: '',
+  },
+  {
+    image: bitacora38,
+    title: '38. ',
+    description: '',
+  },
+  {
+    image: bitacora39,
+    title: '39. ',
+    description: '',
+  },
+  {
+    image: bitacora40,
+    title: '40. ',
+    description: '',
+  },
+  {
+    image: bitacora41,
+    title: '41. ',
+    description: '',
+  },
+  {
+    image: bitacora42,
+    title: '42. ',
+    description: '',
+  },
+  {
+    image: bitacora43,
+    title: '43. ',
+    description: '',
+  },
+  {
+    image: bitacora44,
+    title: '44. ',
+    description: '',
+  },
+  {
+    image: bitacora45,
+    title: '45. ',
+    description: '',
+  },
+  {
+    image: bitacora46,
+    title: '46. ',
+    description: '',
+  },
+  {
+    image: bitacora47,
+    title: '47. ',
+    description: '',
+  },
+  {
+    image: bitacora48,
+    title: '48. ',
+    description: '',
+  },
+  {
+    image: bitacora49,
+    title: '49. ',
+    description: '',
+  },
+  {
+    image: bitacora50,
+    title: '50. ',
+    description: '',
+  },
 
 
 ];

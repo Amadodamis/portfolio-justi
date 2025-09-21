@@ -23,6 +23,11 @@
     /* Agrega un espacio entre las celdas */
     gap: 40px;
     justify-content: center; /* Centra las cards horizontalmente */
-    
-    
+       
+}
+
+
+.icon-arrow{
+    width: 15px;
+    height: 15px;
 }
