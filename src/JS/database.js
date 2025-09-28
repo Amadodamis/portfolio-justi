@@ -174,10 +174,10 @@ export const projectsData = [
     image: proyecto1, // imagen de portada
     title: `Fábrica Performática
     2024`,
-    description: 'Centro experimental y educativo para el arte del cuerpo en movimiento',
+    description: '',
     // Propiedad adicional con todas las imágenes del proyecto para una galería:
     galleryImages: [
-      fab_perf_1, fab_perf_2, fab_perf_3, fab_perf_4, fab_perf_5, fab_perf_6, fab_perf_7, fab_perf_8, fab_perf_9, fab_perf_10,
+      fab_perf_2, fab_perf_3, fab_perf_4, fab_perf_5, fab_perf_6, fab_perf_7, fab_perf_8, fab_perf_9, fab_perf_10,
       fab_perf_11, fab_perf_12, fab_perf_13, fab_perf_14, fab_perf_15, fab_perf_16, fab_perf_17, fab_perf_18, fab_perf_19, fab_perf_20,
       fab_perf_21, fab_perf_22, fab_perf_23, fab_perf_24, fab_perf_25, fab_perf_26, fab_perf_27, fab_perf_28, fab_perf_29, fab_perf_30, fab_perf_31
     ]
@@ -189,7 +189,7 @@ export const projectsData = [
       2023`,
     description: '',
     galleryImages: [
-      master_1, master_2, master_3, master_4, master_5, master_6, master_7, master_8,
+      master_2, master_3, master_4, master_5, master_6, master_7, master_8,
       master_9, master_10, master_11, master_12, master_13, master_14, master_15, master_16
     ]
   },
