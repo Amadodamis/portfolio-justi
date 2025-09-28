@@ -50,13 +50,14 @@ import bitacora48 from '../assets/imgs/bitacora/bitacora48.png';
 import bitacora49 from '../assets/imgs/bitacora/bitacora49.png';
 import bitacora50 from '../assets/imgs/bitacora/bitacora50.png';
 
+/*                         */
 
 // Importa las imágenes de proyectos
-import proyecto1 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf.png';
-import proyecto2 from '../assets/imgs/proyectos/plan_maestro_mdq/plan_maestro_mdq1.png';
-import proyecto3 from '../assets/imgs/proyectos/v_colect/viv_colect4.png';
-import proyecto4 from '../assets/imgs/proyectos/est_fluvial/est_fluvial2.png';
-import proyecto5 from '../assets/imgs/proyectos/ciudad_vertical/ciudad_vertical1.png';
+import proyecto1 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_1.webp';
+import proyecto2 from '../assets/imgs/proyectos/plan_maestro_mdq/master_1.webp';
+import proyecto3 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_1.webp';
+import proyecto4 from '../assets/imgs/proyectos/est_fluvial/est_fluv_1.webp';
+import proyecto5 from '../assets/imgs/proyectos/viv_colectiva/portada.webp';
 
 // Array de datos para la sección de proyectos
 export const projectsData = [
@@ -75,8 +76,8 @@ export const projectsData = [
   },
   {
     image: proyecto3,
-    title: `Vivienda colectiva
-    2022`,
+    title: `Ciudad vertical
+    2023`,
     description: '',
   },
   {
@@ -87,8 +88,8 @@ export const projectsData = [
   },
   {
     image: proyecto5,
-    title: `Ciudad vertical
-    2023`,
+    title: `Vivienda colectiva
+    2022`,
     description: '',
     
   }
