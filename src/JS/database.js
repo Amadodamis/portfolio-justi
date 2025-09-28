@@ -57,43 +57,172 @@ import proyecto1 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_1.
 import proyecto2 from '../assets/imgs/proyectos/plan_maestro_mdq/master_1.webp';
 import proyecto3 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_1.webp';
 import proyecto4 from '../assets/imgs/proyectos/est_fluvial/est_fluv_1.webp';
-import proyecto5 from '../assets/imgs/proyectos/viv_colectiva/portada.webp';
+import proyecto5 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_0.webp';
+
+
+// Importaciones para Fábrica Performática (proyecto1: 1 a 31)
+import fab_perf_1 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_1.webp';
+import fab_perf_2 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_2.webp';
+import fab_perf_3 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_3.webp';
+import fab_perf_4 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_4.webp';
+import fab_perf_5 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_5.webp';
+import fab_perf_6 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_6.webp';
+import fab_perf_7 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_7.webp';
+import fab_perf_8 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_8.webp';
+import fab_perf_9 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_9.webp';
+import fab_perf_10 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_10.webp';
+import fab_perf_11 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_11.webp';
+import fab_perf_12 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_12.webp';
+import fab_perf_13 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_13.webp';
+import fab_perf_14 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_14.webp';
+import fab_perf_15 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_15.webp';
+import fab_perf_16 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_16.webp';
+import fab_perf_17 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_17.webp';
+import fab_perf_18 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_18.webp';
+import fab_perf_19 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_19.webp';
+import fab_perf_20 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_20.webp';
+import fab_perf_21 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_21.webp';
+import fab_perf_22 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_22.webp';
+import fab_perf_23 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_23.webp';
+import fab_perf_24 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_24.webp';
+import fab_perf_25 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_25.webp';
+import fab_perf_26 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_26.webp';
+import fab_perf_27 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_27.webp';
+import fab_perf_28 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_28.webp';
+import fab_perf_29 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_29.webp';
+import fab_perf_30 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_30.webp';
+import fab_perf_31 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_31.webp';
+
+// Importaciones para Plan Maestro Mar Del Plata (proyecto2: 1 a 16)
+import master_1 from '../assets/imgs/proyectos/plan_maestro_mdq/master_1.webp';
+import master_2 from '../assets/imgs/proyectos/plan_maestro_mdq/master_2.webp';
+import master_3 from '../assets/imgs/proyectos/plan_maestro_mdq/master_3.webp';
+import master_4 from '../assets/imgs/proyectos/plan_maestro_mdq/master_4.webp';
+import master_5 from '../assets/imgs/proyectos/plan_maestro_mdq/master_5.webp';
+import master_6 from '../assets/imgs/proyectos/plan_maestro_mdq/master_6.webp';
+import master_7 from '../assets/imgs/proyectos/plan_maestro_mdq/master_7.webp';
+import master_8 from '../assets/imgs/proyectos/plan_maestro_mdq/master_8.webp';
+import master_9 from '../assets/imgs/proyectos/plan_maestro_mdq/master_9.webp';
+import master_10 from '../assets/imgs/proyectos/plan_maestro_mdq/master_10.webp';
+import master_11 from '../assets/imgs/proyectos/plan_maestro_mdq/master_11.webp';
+import master_12 from '../assets/imgs/proyectos/plan_maestro_mdq/master_12.webp';
+import master_13 from '../assets/imgs/proyectos/plan_maestro_mdq/master_13.webp';
+import master_14 from '../assets/imgs/proyectos/plan_maestro_mdq/master_14.webp';
+import master_15 from '../assets/imgs/proyectos/plan_maestro_mdq/master_15.webp';
+import master_16 from '../assets/imgs/proyectos/plan_maestro_mdq/master_16.webp';
+
+// Importaciones para Ciudad Vertical (proyecto3: 1 a 17)
+import Ciu_vert_1 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_1.webp';
+import Ciu_vert_2 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_2.webp';
+import Ciu_vert_3 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_3.webp';
+import Ciu_vert_4 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_4.webp';
+import Ciu_vert_5 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_5.webp';
+import Ciu_vert_6 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_6.webp';
+import Ciu_vert_7 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_7.webp';
+import Ciu_vert_8 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_8.webp';
+import Ciu_vert_9 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_9.webp';
+import Ciu_vert_10 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_10.webp';
+import Ciu_vert_11 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_11.webp';
+import Ciu_vert_12 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_12.webp';
+import Ciu_vert_13 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_13.webp';
+import Ciu_vert_14 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_14.webp';
+import Ciu_vert_15 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_15.webp';
+import Ciu_vert_16 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_16.webp';
+import Ciu_vert_17 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_17.webp';
+
+// Importaciones para Estación Fluvial (proyecto4: 1 a 14)
+import est_fluv_1 from '../assets/imgs/proyectos/est_fluvial/est_fluv_1.webp';
+import est_fluv_2 from '../assets/imgs/proyectos/est_fluvial/est_fluv_2.webp';
+import est_fluv_3 from '../assets/imgs/proyectos/est_fluvial/est_fluv_3.webp';
+import est_fluv_4 from '../assets/imgs/proyectos/est_fluvial/est_fluv_4.webp';
+import est_fluv_5 from '../assets/imgs/proyectos/est_fluvial/est_fluv_5.webp';
+import est_fluv_6 from '../assets/imgs/proyectos/est_fluvial/est_fluv_6.webp';
+import est_fluv_7 from '../assets/imgs/proyectos/est_fluvial/est_fluv_7.webp';
+import est_fluv_8 from '../assets/imgs/proyectos/est_fluvial/est_fluv_8.webp';
+import est_fluv_9 from '../assets/imgs/proyectos/est_fluvial/est_fluv_9.webp';
+import est_fluv_10 from '../assets/imgs/proyectos/est_fluvial/est_fluv_10.webp';
+import est_fluv_11 from '../assets/imgs/proyectos/est_fluvial/est_fluv_11.webp';
+import est_fluv_12 from '../assets/imgs/proyectos/est_fluvial/est_fluv_12.webp';
+import est_fluv_13 from '../assets/imgs/proyectos/est_fluvial/est_fluv_13.webp';
+import est_fluv_14 from '../assets/imgs/proyectos/est_fluvial/est_fluv_14.webp';
+
+// Importaciones para Vivienda Colectiva (proyecto5: 0 a 19)
+import viv_colect_0 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_0.webp'; // nota: comienza en 0
+import viv_colect_1 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_1.webp';
+import viv_colect_2 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_2.webp';
+import viv_colect_3 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_3.webp';
+import viv_colect_4 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_4.webp';
+import viv_colect_5 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_5.webp';
+import viv_colect_6 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_6.webp';
+import viv_colect_7 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_7.webp';
+import viv_colect_8 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_8.webp';
+import viv_colect_9 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_9.webp';
+import viv_colect_10 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_10.webp';
+import viv_colect_11 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_11.webp';
+import viv_colect_12 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_12.webp';
+import viv_colect_13 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_13.webp';
+import viv_colect_14 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_14.webp';
+import viv_colect_15 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_15.webp';
+import viv_colect_16 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_16.webp';
+import viv_colect_17 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_17.webp';
+import viv_colect_18 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_18.webp';
+import viv_colect_19 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_19.webp';
 
 // Array de datos para la sección de proyectos
 export const projectsData = [
   {
-    image: proyecto1,
+    image: proyecto1, // imagen de portada
     title: `Fábrica Performática
     2024`,
     description: 'Centro experimental y educativo para el arte del cuerpo en movimiento',
+    // Propiedad adicional con todas las imágenes del proyecto para una galería:
+    galleryImages: [
+      fab_perf_1, fab_perf_2, fab_perf_3, fab_perf_4, fab_perf_5, fab_perf_6, fab_perf_7, fab_perf_8, fab_perf_9, fab_perf_10,
+      fab_perf_11, fab_perf_12, fab_perf_13, fab_perf_14, fab_perf_15, fab_perf_16, fab_perf_17, fab_perf_18, fab_perf_19, fab_perf_20,
+      fab_perf_21, fab_perf_22, fab_perf_23, fab_perf_24, fab_perf_25, fab_perf_26, fab_perf_27, fab_perf_28, fab_perf_29, fab_perf_30, fab_perf_31
+    ]
   },
   {
     image: proyecto2,
     title: `Plan maestro : 
-     Zona portuaria Mar Del Plata 
-     2023`,
+      Zona portuaria Mar Del Plata 
+      2023`,
     description: '',
+    galleryImages: [
+      master_1, master_2, master_3, master_4, master_5, master_6, master_7, master_8,
+      master_9, master_10, master_11, master_12, master_13, master_14, master_15, master_16
+    ]
   },
   {
     image: proyecto3,
     title: `Ciudad vertical
     2023`,
     description: '',
+    galleryImages: [
+      Ciu_vert_1, Ciu_vert_2, Ciu_vert_3, Ciu_vert_4, Ciu_vert_5, Ciu_vert_6, Ciu_vert_7, Ciu_vert_8, Ciu_vert_9, Ciu_vert_10,
+      Ciu_vert_11, Ciu_vert_12, Ciu_vert_13, Ciu_vert_14, Ciu_vert_15, Ciu_vert_16, Ciu_vert_17
+    ]
   },
   {
     image: proyecto4,
     title: `Estación fluvial
     2022`,
     description: '',
+    galleryImages: [
+      est_fluv_1, est_fluv_2, est_fluv_3, est_fluv_4, est_fluv_5, est_fluv_6, est_fluv_7,
+      est_fluv_8, est_fluv_9, est_fluv_10, est_fluv_11, est_fluv_12, est_fluv_13, est_fluv_14
+    ]
   },
   {
     image: proyecto5,
     title: `Vivienda colectiva
     2022`,
     description: '',
-    
+    galleryImages: [
+      viv_colect_0, viv_colect_1, viv_colect_2, viv_colect_3, viv_colect_4, viv_colect_5, viv_colect_6, viv_colect_7, viv_colect_8, viv_colect_9,
+      viv_colect_10, viv_colect_11, viv_colect_12, viv_colect_13, viv_colect_14, viv_colect_15, viv_colect_16, viv_colect_17, viv_colect_18, viv_colect_19
+    ]
   }
-    
 ];
 
 // Array de datos para la sección de bitacora
