@@ -1,0 +1,70 @@
+/* --- ModalBitacora.css --- */
+
+/* Reutiliza el estilo base del overlay de Proyectos */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    /* Mantenido: Alineación al final para respetar el header fijo */
+    align-items: flex-end; 
+    z-index: 999;
+}
+
+/* Reutiliza el estilo del botón de cierre */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+/* Contenido del modal (específico para Bitácora) */
+.modal-content-bitacora {
+    /* Mismas dimensiones que el modal de proyectos */
+    height: 90vh; 
+    width: 90vw; 
+    max-width: 1600px; /* Tamaño máximo para alta resolución */
+    
+    background: transparent; 
+    padding-bottom: 20px; 
+    box-sizing: border-box; 
+    border-radius: 12px;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* Central la imagen verticalmente */
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Contenedor de la imagen (único elemento visible) */
+.modal-image-container-bitacora {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ocupa todo el espacio disponible */
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo de la imagen principal para el zoom */
+.modal-main-image-bitacora {
+    /* Máxima visibilidad de la imagen (Zoom) */
+    max-width: 100%; 
+    max-height: 100%; 
+    width: auto; 
+    height: auto; 
+    object-fit: contain; /* Asegura que la imagen completa se vea */
+    border-radius: 10px;
+}

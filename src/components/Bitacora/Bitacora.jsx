@@ -4,9 +4,11 @@ import Cards from '../Cards/Cards';
 import { bitacoraData } from '../../JS/database';
 import arrowLeft from "../../assets/icons/arrow_left.png";
 import arrowRight from "../../assets/icons/arrow_right.png";
+import ModalBitacora from '../ModalBitacora/ModalBitacora'; // 👈 Importamos el nuevo modal
 
 function Bitacora({ texts }) {
   const [currentPage, setCurrentPage] = useState(0);
+  const [selectedImage, setSelectedImage] = useState(null); // 👈 Nuevo estado
   const itemsPerPage = 6;
 
   const totalPages = Math.ceil(bitacoraData.length / itemsPerPage);
@@ -31,6 +33,17 @@ function Bitacora({ texts }) {
   // Nueva lógica para determinar si hay menos de 6 ítems
   const alignArrows = currentItems.length < 3;
 
+  // 👇 Función para abrir el modal
+  const handleCardClick = (imageSrc) => {
+    setSelectedImage(imageSrc);
+  };
+
+  // 👇 Función para cerrar el modal
+  const handleCloseModal = () => {
+    setSelectedImage(null);
+  };
+
+
   return (
     <section id="bitacora" className="bitacora-section">
       <h2>{texts.nav.bitacora}</h2>
@@ -48,11 +61,13 @@ function Bitacora({ texts }) {
         {/* Contenedor de cards */}
         <div className="bitacora-container">
           {currentItems.map((item, index) => (
-            <Cards
-              key={index}
-              image={item.image}
-              title={item.title}
-            />
+            // 👇 Agregamos el div con el evento onClick
+            <div key={index} onClick={() => handleCardClick(item.image)}>
+              <Cards
+                image={item.image}
+                title={item.title}
+              />
+            </div>
           ))}
 
           {/* Render de placeholders vacíos */}
@@ -70,6 +85,12 @@ function Bitacora({ texts }) {
           onClick={handleNext}
         />
       </div>
+
+      {/* 👇 Render del Modal de Bitácora */}
+      {selectedImage && (
+        <ModalBitacora imageSrc={selectedImage} onClose={handleCloseModal} />
+      )}
+
     </section>
   );
 }
