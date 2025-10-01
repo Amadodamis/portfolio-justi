@@ -16,7 +16,7 @@ function SobreMi() {
                 <img src={fotoAboutMe} alt='foto jus' className='ph-jus' />
 
             </div>
-
+               
             <div id="about" className="container-texts-about">
 
                 <p className="text-aboutme">
