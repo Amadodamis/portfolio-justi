@@ -1,54 +1,60 @@
 // Importa las imágenes de bitacora
-import bitacora1 from '../assets/imgs/bitacora/bitacora1.png';
-import bitacora2 from '../assets/imgs/bitacora/bitacora2.png';
-import bitacora3 from '../assets/imgs/bitacora/bitacora3.png';
-import bitacora4 from '../assets/imgs/bitacora/bitacora4.png';
-import bitacora5 from '../assets/imgs/bitacora/bitacora5.png';
-import bitacora6 from '../assets/imgs/bitacora/bitacora6.png';
-import bitacora7 from '../assets/imgs/bitacora/bitacora7.png';
-import bitacora8 from '../assets/imgs/bitacora/bitacora8.png';
-import bitacora9 from '../assets/imgs/bitacora/bitacora9.png';
-import bitacora10 from '../assets/imgs/bitacora/bitacora10.png';
-import bitacora11 from '../assets/imgs/bitacora/bitacora11.png';
-import bitacora12 from '../assets/imgs/bitacora/bitacora12.png';
-import bitacora13 from '../assets/imgs/bitacora/bitacora13.png';
-import bitacora14 from '../assets/imgs/bitacora/bitacora14.png';
-import bitacora15 from '../assets/imgs/bitacora/bitacora15.png';
-import bitacora16 from '../assets/imgs/bitacora/bitacora16.png';
-import bitacora17 from '../assets/imgs/bitacora/bitacora17.png';
-import bitacora18 from '../assets/imgs/bitacora/bitacora18.png';
-import bitacora19 from '../assets/imgs/bitacora/bitacora19.png';
-import bitacora20 from '../assets/imgs/bitacora/bitacora20.png';
-import bitacora21 from '../assets/imgs/bitacora/bitacora21.png';
-import bitacora22 from '../assets/imgs/bitacora/bitacora22.png';
-import bitacora23 from '../assets/imgs/bitacora/bitacora23.png';
-import bitacora24 from '../assets/imgs/bitacora/bitacora24.png';
-import bitacora25 from '../assets/imgs/bitacora/bitacora25.png';
-import bitacora26 from '../assets/imgs/bitacora/bitacora26.png';
-import bitacora27 from '../assets/imgs/bitacora/bitacora27.png';
-import bitacora28 from '../assets/imgs/bitacora/bitacora28.png';
-import bitacora29 from '../assets/imgs/bitacora/bitacora29.png';
-import bitacora30 from '../assets/imgs/bitacora/bitacora30.png';
-import bitacora31 from '../assets/imgs/bitacora/bitacora31.png';
-import bitacora32 from '../assets/imgs/bitacora/bitacora32.png';
-import bitacora33 from '../assets/imgs/bitacora/bitacora33.png';
-import bitacora34 from '../assets/imgs/bitacora/bitacora34.png';
-import bitacora35 from '../assets/imgs/bitacora/bitacora35.png';
-import bitacora36 from '../assets/imgs/bitacora/bitacora36.png';
-import bitacora37 from '../assets/imgs/bitacora/bitacora37.png';
-import bitacora38 from '../assets/imgs/bitacora/bitacora38.png';
-import bitacora39 from '../assets/imgs/bitacora/bitacora39.png';
-import bitacora40 from '../assets/imgs/bitacora/bitacora40.png';
-import bitacora41 from '../assets/imgs/bitacora/bitacora41.png';
-import bitacora42 from '../assets/imgs/bitacora/bitacora42.png';
-import bitacora43 from '../assets/imgs/bitacora/bitacora43.png';
-import bitacora44 from '../assets/imgs/bitacora/bitacora44.png';
-import bitacora45 from '../assets/imgs/bitacora/bitacora45.png';
-import bitacora46 from '../assets/imgs/bitacora/bitacora46.png';
-import bitacora47 from '../assets/imgs/bitacora/bitacora47.png';
-import bitacora48 from '../assets/imgs/bitacora/bitacora48.png';
-import bitacora49 from '../assets/imgs/bitacora/bitacora49.png';
-import bitacora50 from '../assets/imgs/bitacora/bitacora50.png';
+import bitacora1 from '../assets/imgs/bitacora/bitacora1.webp';
+import bitacora2 from '../assets/imgs/bitacora/bitacora2.webp';
+import bitacora3 from '../assets/imgs/bitacora/bitacora3.webp';
+import bitacora4 from '../assets/imgs/bitacora/bitacora4.webp';
+import bitacora5 from '../assets/imgs/bitacora/bitacora5.webp';
+import bitacora6 from '../assets/imgs/bitacora/bitacora6.webp';
+import bitacora7 from '../assets/imgs/bitacora/bitacora7.webp';
+import bitacora8 from '../assets/imgs/bitacora/bitacora8.webp';
+import bitacora9 from '../assets/imgs/bitacora/bitacora9.webp';
+import bitacora10 from '../assets/imgs/bitacora/bitacora10.webp';
+import bitacora11 from '../assets/imgs/bitacora/bitacora11.webp';
+import bitacora12 from '../assets/imgs/bitacora/bitacora12.webp';
+import bitacora13 from '../assets/imgs/bitacora/bitacora13.webp';
+import bitacora14 from '../assets/imgs/bitacora/bitacora14.webp';
+import bitacora15 from '../assets/imgs/bitacora/bitacora15.webp';
+import bitacora16 from '../assets/imgs/bitacora/bitacora16.webp';
+import bitacora17 from '../assets/imgs/bitacora/bitacora17.webp';
+import bitacora18 from '../assets/imgs/bitacora/bitacora18.webp';
+import bitacora19 from '../assets/imgs/bitacora/bitacora19.webp';
+import bitacora20 from '../assets/imgs/bitacora/bitacora20.webp';
+import bitacora21 from '../assets/imgs/bitacora/bitacora21.webp';
+import bitacora22 from '../assets/imgs/bitacora/bitacora22.webp';
+import bitacora23 from '../assets/imgs/bitacora/bitacora23.webp';
+import bitacora24 from '../assets/imgs/bitacora/bitacora24.webp';
+import bitacora25 from '../assets/imgs/bitacora/bitacora25.webp';
+import bitacora26 from '../assets/imgs/bitacora/bitacora26.webp';
+import bitacora27 from '../assets/imgs/bitacora/bitacora27.webp';
+import bitacora28 from '../assets/imgs/bitacora/bitacora28.webp';
+import bitacora29 from '../assets/imgs/bitacora/bitacora29.webp';
+import bitacora30 from '../assets/imgs/bitacora/bitacora30.webp';
+import bitacora31 from '../assets/imgs/bitacora/bitacora31.webp';
+import bitacora32 from '../assets/imgs/bitacora/bitacora32.webp';
+import bitacora33 from '../assets/imgs/bitacora/bitacora33.webp';
+import bitacora34 from '../assets/imgs/bitacora/bitacora34.webp';
+import bitacora35 from '../assets/imgs/bitacora/bitacora35.webp';
+import bitacora36 from '../assets/imgs/bitacora/bitacora36.webp';
+import bitacora37 from '../assets/imgs/bitacora/bitacora37.webp';
+import bitacora38 from '../assets/imgs/bitacora/bitacora38.webp';
+import bitacora39 from '../assets/imgs/bitacora/bitacora39.webp';
+import bitacora40 from '../assets/imgs/bitacora/bitacora40.webp';
+import bitacora41 from '../assets/imgs/bitacora/bitacora41.webp';
+import bitacora42 from '../assets/imgs/bitacora/bitacora42.webp';
+import bitacora43 from '../assets/imgs/bitacora/bitacora43.webp';
+import bitacora44 from '../assets/imgs/bitacora/bitacora44.webp';
+import bitacora45 from '../assets/imgs/bitacora/bitacora45.webp';
+import bitacora46 from '../assets/imgs/bitacora/bitacora46.webp';
+import bitacora47 from '../assets/imgs/bitacora/bitacora47.webp';
+import bitacora48 from '../assets/imgs/bitacora/bitacora48.webp';
+import bitacora49 from '../assets/imgs/bitacora/bitacora49.webp';
+import bitacora50 from '../assets/imgs/bitacora/bitacora50.webp';
+import bitacora51 from '../assets/imgs/bitacora/bitacora51.webp';
+import bitacora52 from '../assets/imgs/bitacora/bitacora52.webp';
+import bitacora53 from '../assets/imgs/bitacora/bitacora53.webp';
+import bitacora54 from '../assets/imgs/bitacora/bitacora54.webp';
+import bitacora55 from '../assets/imgs/bitacora/bitacora55.webp';
+import bitacora56 from '../assets/imgs/bitacora/bitacora56.webp';
 
 /*                         */
 
@@ -477,6 +483,41 @@ export const bitacoraData = [
     title: '50. ',
     description: '',
   },
+  {
+    image: bitacora51,
+    title: '51. ',
+    description: '',
+  },
+
+  {
+    image: bitacora52,
+    title: '52. ',
+    description: '',
+  },
+
+  {
+    image: bitacora53,
+    title: '53. ',
+    description: '',
+  },
+
+  {
+    image: bitacora54,
+    title: '54. ',
+    description: '',
+  },
+
+  {
+    image: bitacora55,
+    title: '55. ',
+    description: '',
+  },
+{
+    image: bitacora56,
+    title: '56. ',
+    description: '',
+  },
+
 
 
 ];

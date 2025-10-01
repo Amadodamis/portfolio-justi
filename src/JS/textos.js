@@ -7,7 +7,7 @@ export const content = {
         projects: "proyectos",
         bitacora: "bitácora",
         contact: "contacto",
-        cv:"curriculum"
+        cv: "curriculum"
       },
       sobreMi: {
         text1: `Soy Justina Spinoso, arquitecta graduada en la Facultad de Arquitectura y Urbanismo de la Universidad Nacional de La Plata.
@@ -42,11 +42,25 @@ Entiendo que cada proyecto debe concebirse con conciencia del entorno en el que 
         projects: "projects",
         bitacora: "binnacle",
         contact: "contact",
-        cv:"resume",
+        cv: "resume",
       },
       sobreMi: {
-        text1: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
-        text2: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+
+        text1: `I am Justina Spinoso, an architect who graduated from the Facultad de Arquitectura y Urbanismo de la Universidad Nacional de La Plata.
+            I have always been drawn to visual experimentation. At times, I've focused on drawing, complemented by digital tools and editing; at others, I was captivated by three-dimensional exploration, including model-making and working with different materials. I also developed a strong interest in photography, particularly through experimental techniques that allowed me to observe architectural projects from new perspectives.
+          When bringing my ideas to life, I seek to combine this appreciation for analog methods with the precision of digital tools, integrating technical accuracy with expressive sensitivity.
+ I believe every project must be conceived with a profound awareness of its context. It's not just about maximizing a project's potential, but also about recognizing that every intervention transforms urban space and forges new relationships within it. For this reason, I approach design responsibly, with the intention of improving the urban environment while always focusing on the people who will inhabit it and the transformations it may undergo over time.
+From this perspective, my understanding of architecture moves away from the idea of static, passive objects. Instead, I'm interested in conceiving it through bodily movement, recognizing that spaces truly come to life through human presence and action. I believe spaces are not only inhabited, but also activated and shaped through the experiences, relationships, and interactions of their users. Architecture, in this view, functions as a network of relationships—a dynamic choreography brought to life by the body's presence and actions.
+
+
+
+        `,
+
+        text2: `This perspective guided my final degree project, titled Fábrica Performática: Experimental and Educational Center for the Art of the Moving Body. In this project, I explored how spaces can be responsive to their users, actively encouraging encounters, exchanges, and collective construction. The design was oriented around bodily movement as a tool for expression and learning. Therefore, it was crucial to work with diverse spatial scales that would allow for displacement, suspension, swinging, and adaptation to the needs of each activity. The proposal conceives of architecture as a living stage, where everyday actions, paths, and encounters become continuous performances.
+
+At the same time, my understanding of architecture is rooted in collaborative and reciprocal work. I am convinced that the exchange of ideas enriches every stage of the process, and that exploring different approaches broadens one's perspective and significantly improves the quality of the results. This vision was reinforced during a workshop I attended in Porto, Portugal, where I had the privilege of meeting renowned architects Álvaro Siza and Eduardo Souto de Moura, visiting their work, and studying at the Faculty of Architecture of Porto. This was a transformative experience that renewed and reaffirmed for me the value of architecture as a space for dialogue and transformation.
+
+        `,
       }
     },
     login: {
