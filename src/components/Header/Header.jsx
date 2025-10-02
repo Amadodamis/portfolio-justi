@@ -11,9 +11,14 @@ function Header({ texts }) {
                 <li><a className="nav-hover proyectos-text" href="#projects" >{texts.nav.projects}</a></li>
 
                 <li><a className="nav-hover" href="#bitacora">{texts.nav.bitacora}</a></li>
+
                 <li><a className="nav-hover" href="#contact">{texts.nav.contact}</a></li>
-               
-               <li><a className="nav-hover" href="#Cv">{texts.nav.cv}</a></li>
+
+                <li>
+                    <a className="nav-hover" href="/pdfs/CV_JustinaSpinoso.pdf" download="CV_JustinaSpinoso.pdf" >
+                        {texts.nav.cv}
+                    </a>
+                </li>
 
                 <li><LanguageButton /></li>
             </ul>
