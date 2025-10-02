@@ -1,6 +1,7 @@
 .footer-section {
   padding: 60px 15%;
-  background-color: var(--color1); /* usa el mismo fondo que otras secciones */
+  background-color: var(--color1);
+  /* usa el mismo fondo que otras secciones */
   color: var(--color3);
   display: flex;
   flex-direction: column;
@@ -49,4 +50,13 @@
   font-size: 0.85rem;
   opacity: 0.6;
   text-align: center;
+}
+
+
+@media (min-width: 319px) and (max-width: 768px) {
+  .footer-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
 }

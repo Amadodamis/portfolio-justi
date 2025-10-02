@@ -1,4 +1,9 @@
+/* ================================================= */
+/* ESTILOS BASE / ESCRITORIO (Mayores a 768px) */
+/* ================================================= */
+
 .main-nav {
+  /* ... Estilos de posicionamiento de escritorio (mantienes left: 15%; width: 70%;) ... */
   width: 100%;
   position: fixed;
   top: 0;
@@ -10,17 +15,26 @@
   border-bottom: 1px var(--color2) solid;
 }
 
-.main-nav ul {
+/* En escritorio, la lista se muestra horizontalmente */
+.nav-list {
+  /* Usamos la clase nueva para la lista */
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
 
+/* En escritorio, el botón de hamburguesa debe estar oculto */
+.hamburger-button {
+  display: none;
+}
+
+
+/* ... (El resto de tus estilos .nav-hover, .proyectos-text, :hover, etc. van aquí) ... */
 
 .nav-hover {
   font-family: var(--font-title);
   font-weight: 500;
-  
+
   font-size: 1.2em;
   color: var(--color2);
   text-decoration: none
@@ -31,9 +45,82 @@
   font-size: 1.2rem;
   margin: 0px;
   padding: 0px;
-  color:var(--color3)
+  color: var(--color3)
 }
 
-.nav-hover:hover{
-  color:var(--color3)
+.nav-hover:hover {
+  color: var(--color3)
+}
+
+
+/* ================================================= */
+/* MEDIA QUERY: RANGO MÓVIL/TABLET (325px a 768px) */
+/* ================================================= */
+
+@media (min-width: 319px) and (max-width: 768px) {
+
+  /* 1. Reconfigurar la barra de navegación principal */
+  .main-nav {
+    left: 0;
+
+    padding: 0.8rem 1.5rem;
+    /* Ajuste de padding para móvil/tablet */
+    display: flex;
+    /* Usamos flexbox para alinear el logo y el botón */
+    justify-content: center;
+    /* Alinea el botón a la derecha */
+    align-items: center;
+    border-bottom: none;
+    background-color: rgba(240, 240, 240, 0.9);
+    /* Fondo más sólido */
+    height: 60px;
+    /* Altura de la barra */
+  }
+
+  /* 2. Mostrar el botón de hamburguesa */
+  .hamburger-button {
+    display: block;
+    background: none;
+    border: none;
+    color: var(--color2);
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  /* 3. Ocultar la lista de navegación por defecto (estado cerrado) */
+  .nav-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* Ocupa todo el alto de la ventana */
+    background-color: rgba(255, 255, 255, 0.98);
+    /* Fondo claro para el menú */
+    flex-direction: column;
+    /* Apila los links verticalmente */
+    justify-content: center;
+    align-items: center;
+
+    /* ESTADO INICIAL: OCULTO */
+    display: none;
+    /* Utiliza esta propiedad para que el JS lo muestre al hacer clic */
+  }
+
+  /* 4. Estilos de los links en el menú */
+  .nav-list li {
+    margin: 20px 0;
+  }
+
+  .nav-hover {
+    font-size: 1.5em;
+    /* Links más grandes y visibles para tocar */
+  }
+
+  /* 5. CLASE PARA ABRIR EL MENÚ CON JAVASCRIPT */
+  .nav-list.open {
+    display: flex;
+    /* Sobrescribe display: none; para mostrar el menú */
+  }
 }

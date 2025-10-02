@@ -5,8 +5,10 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;   /* 👈 el contenido arranca arriba */
-    justify-content: flex-start; /* 👈 evita que se centre */
+    align-items: flex-start;
+    /* 👈 el contenido arranca arriba */
+    justify-content: flex-start;
+    /* 👈 evita que se centre */
 }
 
 .bitacora-section h2 {
@@ -40,10 +42,19 @@
 
 /* Nuevo estilo para alinear al final */
 .icon-arrow.align-end {
- align-self: flex-end;
+    align-self: flex-end;
 }
 
 /* Placeholders invisibles para mantener la grilla en 6 */
 .placeholder {
     visibility: hidden;
+}
+
+
+@media (min-width: 319px) and (max-width: 768px) {
+    .bitacora-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
 }

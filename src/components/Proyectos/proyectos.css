@@ -50,3 +50,12 @@
 .placeholder {
     visibility: hidden;
 }
+
+
+@media (min-width: 319px) and (max-width: 768px) {
+    .proyectos-section {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+}
