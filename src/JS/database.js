@@ -1,225 +1,15 @@
-// Importa las imágenes de bitacora
-import bitacora1 from '../assets/imgs/bitacora/bitacora1.webp';
-import bitacora2 from '../assets/imgs/bitacora/bitacora2.webp';
-import bitacora3 from '../assets/imgs/bitacora/bitacora3.webp';
-import bitacora4 from '../assets/imgs/bitacora/bitacora4.webp';
-import bitacora5 from '../assets/imgs/bitacora/bitacora5.webp';
-import bitacora6 from '../assets/imgs/bitacora/bitacora6.webp';
-import bitacora7 from '../assets/imgs/bitacora/bitacora7.webp';
-import bitacora8 from '../assets/imgs/bitacora/bitacora8.webp';
-import bitacora9 from '../assets/imgs/bitacora/bitacora9.webp';
-import bitacora10 from '../assets/imgs/bitacora/bitacora10.webp';
-import bitacora11 from '../assets/imgs/bitacora/bitacora11.webp';
-import bitacora12 from '../assets/imgs/bitacora/bitacora12.webp';
-import bitacora13 from '../assets/imgs/bitacora/bitacora13.webp';
-import bitacora14 from '../assets/imgs/bitacora/bitacora14.webp';
-import bitacora15 from '../assets/imgs/bitacora/bitacora15.webp';
-import bitacora16 from '../assets/imgs/bitacora/bitacora16.webp';
-import bitacora17 from '../assets/imgs/bitacora/bitacora17.webp';
-import bitacora18 from '../assets/imgs/bitacora/bitacora18.webp';
-import bitacora19 from '../assets/imgs/bitacora/bitacora19.webp';
-import bitacora20 from '../assets/imgs/bitacora/bitacora20.webp';
-import bitacora21 from '../assets/imgs/bitacora/bitacora21.webp';
-import bitacora22 from '../assets/imgs/bitacora/bitacora22.webp';
-import bitacora23 from '../assets/imgs/bitacora/bitacora23.webp';
-import bitacora24 from '../assets/imgs/bitacora/bitacora24.webp';
-import bitacora25 from '../assets/imgs/bitacora/bitacora25.webp';
-import bitacora26 from '../assets/imgs/bitacora/bitacora26.webp';
-import bitacora27 from '../assets/imgs/bitacora/bitacora27.webp';
-import bitacora28 from '../assets/imgs/bitacora/bitacora28.webp';
-import bitacora29 from '../assets/imgs/bitacora/bitacora29.webp';
-import bitacora30 from '../assets/imgs/bitacora/bitacora30.webp';
-import bitacora31 from '../assets/imgs/bitacora/bitacora31.webp';
-import bitacora32 from '../assets/imgs/bitacora/bitacora32.webp';
-import bitacora33 from '../assets/imgs/bitacora/bitacora33.webp';
-import bitacora34 from '../assets/imgs/bitacora/bitacora34.webp';
-import bitacora35 from '../assets/imgs/bitacora/bitacora35.webp';
-import bitacora36 from '../assets/imgs/bitacora/bitacora36.webp';
-import bitacora37 from '../assets/imgs/bitacora/bitacora37.webp';
-import bitacora38 from '../assets/imgs/bitacora/bitacora38.webp';
-import bitacora39 from '../assets/imgs/bitacora/bitacora39.webp';
-import bitacora40 from '../assets/imgs/bitacora/bitacora40.webp';
-import bitacora41 from '../assets/imgs/bitacora/bitacora41.webp';
-import bitacora42 from '../assets/imgs/bitacora/bitacora42.webp';
-import bitacora43 from '../assets/imgs/bitacora/bitacora43.webp';
-import bitacora44 from '../assets/imgs/bitacora/bitacora44.webp';
-import bitacora45 from '../assets/imgs/bitacora/bitacora45.webp';
-import bitacora46 from '../assets/imgs/bitacora/bitacora46.webp';
-import bitacora47 from '../assets/imgs/bitacora/bitacora47.webp';
-import bitacora48 from '../assets/imgs/bitacora/bitacora48.webp';
-import bitacora49 from '../assets/imgs/bitacora/bitacora49.webp';
-import bitacora50 from '../assets/imgs/bitacora/bitacora50.webp';
-import bitacora51 from '../assets/imgs/bitacora/bitacora51.webp';
-import bitacora52 from '../assets/imgs/bitacora/bitacora52.webp';
-import bitacora53 from '../assets/imgs/bitacora/bitacora53.webp';
-import bitacora54 from '../assets/imgs/bitacora/bitacora54.webp';
-import bitacora55 from '../assets/imgs/bitacora/bitacora55.webp';
-import bitacora56 from '../assets/imgs/bitacora/bitacora56.webp';
+// ATENCIÓN: Se eliminaron todos los imports de imágenes.
+// Las imágenes ahora se referencian directamente usando su ruta pública absoluta.
 
-/*                         */
-
-// Importa las imágenes de proyectos
-import proyecto1 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_1.webp';
-import proyecto2 from '../assets/imgs/proyectos/plan_maestro_mdq/master_1.webp';
-import proyecto3 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_1.webp';
-import proyecto4 from '../assets/imgs/proyectos/est_fluvial/est_fluv_1.webp';
-import proyecto5 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_0.webp';
-import proyecto6 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art0.webp'
-import proyecto7 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio0.webp';
-import proyecto8 from '../assets/imgs/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_1.jpg';
-
-
-// Importaciones para Fábrica Performática (proyecto1: 1 a 31)
-import fab_perf_1 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_1.webp';
-import fab_perf_2 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_2.webp';
-import fab_perf_3 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_3.webp';
-import fab_perf_4 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_4.webp';
-import fab_perf_5 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_5.webp';
-import fab_perf_6 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_6.webp';
-import fab_perf_7 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_7.webp';
-import fab_perf_8 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_8.webp';
-import fab_perf_9 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_9.webp';
-import fab_perf_10 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_10.webp';
-import fab_perf_11 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_11.webp';
-import fab_perf_12 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_12.webp';
-import fab_perf_13 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_13.webp';
-import fab_perf_14 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_14.webp';
-import fab_perf_15 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_15.webp';
-import fab_perf_16 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_16.webp';
-import fab_perf_17 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_17.webp';
-import fab_perf_18 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_18.webp';
-import fab_perf_19 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_19.webp';
-import fab_perf_20 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_20.webp';
-import fab_perf_21 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_21.webp';
-import fab_perf_22 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_22.webp';
-import fab_perf_23 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_23.webp';
-import fab_perf_24 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_24.webp';
-import fab_perf_25 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_25.webp';
-import fab_perf_26 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_26.webp';
-import fab_perf_27 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_27.webp';
-import fab_perf_28 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_28.webp';
-import fab_perf_29 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_29.webp';
-import fab_perf_30 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_30.webp';
-import fab_perf_31 from '../assets/imgs/proyectos/fabrica_performatica/fab_perf_31.webp';
-
-// Importaciones para Plan Maestro Mar Del Plata (proyecto2: 1 a 16)
-import master_1 from '../assets/imgs/proyectos/plan_maestro_mdq/master_1.webp';
-import master_2 from '../assets/imgs/proyectos/plan_maestro_mdq/master_2.webp';
-import master_3 from '../assets/imgs/proyectos/plan_maestro_mdq/master_3.webp';
-import master_4 from '../assets/imgs/proyectos/plan_maestro_mdq/master_4.webp';
-import master_5 from '../assets/imgs/proyectos/plan_maestro_mdq/master_5.webp';
-import master_6 from '../assets/imgs/proyectos/plan_maestro_mdq/master_6.webp';
-import master_7 from '../assets/imgs/proyectos/plan_maestro_mdq/master_7.webp';
-import master_8 from '../assets/imgs/proyectos/plan_maestro_mdq/master_8.webp';
-import master_9 from '../assets/imgs/proyectos/plan_maestro_mdq/master_9.webp';
-import master_10 from '../assets/imgs/proyectos/plan_maestro_mdq/master_10.webp';
-import master_11 from '../assets/imgs/proyectos/plan_maestro_mdq/master_11.webp';
-import master_12 from '../assets/imgs/proyectos/plan_maestro_mdq/master_12.webp';
-import master_13 from '../assets/imgs/proyectos/plan_maestro_mdq/master_13.webp';
-import master_14 from '../assets/imgs/proyectos/plan_maestro_mdq/master_14.webp';
-import master_15 from '../assets/imgs/proyectos/plan_maestro_mdq/master_15.webp';
-import master_16 from '../assets/imgs/proyectos/plan_maestro_mdq/master_16.webp';
-
-// Importaciones para Ciudad Vertical (proyecto3: 1 a 17)
-import Ciu_vert_1 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_1.webp';
-import Ciu_vert_2 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_2.webp';
-import Ciu_vert_3 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_3.webp';
-import Ciu_vert_4 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_4.webp';
-import Ciu_vert_5 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_5.webp';
-import Ciu_vert_6 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_6.webp';
-import Ciu_vert_7 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_7.webp';
-import Ciu_vert_8 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_8.webp';
-import Ciu_vert_9 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_9.webp';
-import Ciu_vert_10 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_10.webp';
-import Ciu_vert_11 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_11.webp';
-import Ciu_vert_12 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_12.webp';
-import Ciu_vert_13 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_13.webp';
-import Ciu_vert_14 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_14.webp';
-import Ciu_vert_15 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_15.webp';
-import Ciu_vert_16 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_16.webp';
-import Ciu_vert_17 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_17.webp';
-
-// Importaciones para Estación Fluvial (proyecto4: 1 a 14)
-import est_fluv_1 from '../assets/imgs/proyectos/est_fluvial/est_fluv_1.webp';
-import est_fluv_2 from '../assets/imgs/proyectos/est_fluvial/est_fluv_2.webp';
-import est_fluv_3 from '../assets/imgs/proyectos/est_fluvial/est_fluv_3.webp';
-import est_fluv_4 from '../assets/imgs/proyectos/est_fluvial/est_fluv_4.webp';
-import est_fluv_5 from '../assets/imgs/proyectos/est_fluvial/est_fluv_5.webp';
-import est_fluv_6 from '../assets/imgs/proyectos/est_fluvial/est_fluv_6.webp';
-import est_fluv_7 from '../assets/imgs/proyectos/est_fluvial/est_fluv_7.webp';
-import est_fluv_8 from '../assets/imgs/proyectos/est_fluvial/est_fluv_8.webp';
-import est_fluv_9 from '../assets/imgs/proyectos/est_fluvial/est_fluv_9.webp';
-import est_fluv_10 from '../assets/imgs/proyectos/est_fluvial/est_fluv_10.webp';
-import est_fluv_11 from '../assets/imgs/proyectos/est_fluvial/est_fluv_11.webp';
-import est_fluv_12 from '../assets/imgs/proyectos/est_fluvial/est_fluv_12.webp';
-import est_fluv_13 from '../assets/imgs/proyectos/est_fluvial/est_fluv_13.webp';
-import est_fluv_14 from '../assets/imgs/proyectos/est_fluvial/est_fluv_14.webp';
-
-// Importaciones para Vivienda Colectiva (proyecto5: 0 a 19)
-import viv_colect_0 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_0.webp'; // nota: comienza en 0
-import viv_colect_1 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_1.webp';
-import viv_colect_2 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_2.webp';
-import viv_colect_3 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_3.webp';
-import viv_colect_4 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_4.webp';
-import viv_colect_5 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_5.webp';
-import viv_colect_6 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_6.webp';
-import viv_colect_7 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_7.webp';
-import viv_colect_8 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_8.webp';
-import viv_colect_9 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_9.webp';
-import viv_colect_10 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_10.webp';
-import viv_colect_11 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_11.webp';
-import viv_colect_12 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_12.webp';
-import viv_colect_13 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_13.webp';
-import viv_colect_14 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_14.webp';
-import viv_colect_15 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_15.webp';
-import viv_colect_16 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_16.webp';
-import viv_colect_17 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_17.webp';
-import viv_colect_18 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_18.webp';
-import viv_colect_19 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_19.webp';
-
-// Importaciones para Vivienda Colectiva arte ytrabajo (proyecto6: 0 a 17)
-import viv_art_0 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art0.webp';
-import viv_art_1 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art1.webp';
-import viv_art_2 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art2.webp';
-import viv_art_3 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art3.webp';
-import viv_art_4 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art4.webp';
-import viv_art_5 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art5.webp';
-import viv_art_6 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art6.webp';
-import viv_art_7 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art7.webp';
-import viv_art_8 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art8.webp';
-import viv_art_9 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art9.webp';
-import viv_art_10 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art10.webp';
-import viv_art_11 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art11.webp';
-import viv_art_12 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art12.webp';
-import viv_art_13 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art13.webp';
-import viv_art_14 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art14.webp';
-import viv_art_15 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art15.webp';
-import viv_art_16 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art16.webp';
-import viv_art_17 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art17.webp';
-
-// Importaciones para Vivienda Colectiva (proyecto7: 0 a 19)
-
-import biblio0 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio0.webp';
-import biblio1 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio1.webp';
-import biblio2 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio2.webp';
-import biblio3 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio3.webp';
-import biblio4 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio4.webp';
-import biblio5 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio5.webp';
-import biblio6 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio6.webp';
-import biblio7 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio7.webp';
-import biblio8 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio8.webp';
-import biblio9 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio9.webp';
-import biblio10 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio10.webp';
-import biblio11 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio11.webp';
-import biblio12 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio12.webp';
-import biblio13 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio13.webp';
-import biblio14 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio14.webp';
-import biblio15 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio15.webp';
-
-
-// Importaciones para Concurso Nueva Estacion de facultad de derecho (proyecto8: 0 a 1)
-import concurso_estacion_facultad_1 from '../assets/imgs/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_1.jpg';
-import concurso_estacion_facultad_2 from '../assets/imgs/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_2.jpg';
+// Rutas de las imágenes de portada (public/proyectos/...)
+const proyecto1 = '/proyectos/fabrica_performatica/fab_perf_1.webp';
+const proyecto2 = '/proyectos/plan_maestro_mdq/master_1.webp';
+const proyecto3 = '/proyectos/ciudad_vertical/Ciu_vert_1.webp';
+const proyecto4 = '/proyectos/est_fluvial/est_fluv_1.webp';
+const proyecto5 = '/proyectos/viv_colectiva/viv_colect_0.webp';
+const proyecto6 = '/proyectos/VivColecArtYtrabajo/viv_art0.webp';
+const proyecto7 = '/proyectos/BibliotecaSanNicolas/biblio0.webp';
+const proyecto8 = '/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_1.jpg';
 
 
 // Array de datos para la sección de proyectos
@@ -228,12 +18,11 @@ export const projectsData = [
     image: proyecto1, // imagen de portada
     title: `Fábrica Performática
     2024`,
-    description: '',
-    // Propiedad adicional con todas las imágenes del proyecto para una galería:
+    // Las rutas en galleryImages ahora son strings y usan el prefijo /proyectos/
     galleryImages: [
-      fab_perf_2, fab_perf_3, fab_perf_4, fab_perf_5, fab_perf_6, fab_perf_7, fab_perf_8, fab_perf_9, fab_perf_10,
-      fab_perf_11, fab_perf_12, fab_perf_13, fab_perf_14, fab_perf_15, fab_perf_16, fab_perf_17, fab_perf_18, fab_perf_19, fab_perf_20,
-      fab_perf_21, fab_perf_22, fab_perf_23, fab_perf_24, fab_perf_25, fab_perf_26, fab_perf_27, fab_perf_28, fab_perf_29, fab_perf_30, fab_perf_31
+      '/proyectos/fabrica_performatica/fab_perf_2.webp', '/proyectos/fabrica_performatica/fab_perf_3.webp', '/proyectos/fabrica_performatica/fab_perf_4.webp', '/proyectos/fabrica_performatica/fab_perf_5.webp', '/proyectos/fabrica_performatica/fab_perf_6.webp', '/proyectos/fabrica_performatica/fab_perf_7.webp', '/proyectos/fabrica_performatica/fab_perf_8.webp', '/proyectos/fabrica_performatica/fab_perf_9.webp', '/proyectos/fabrica_performatica/fab_perf_10.webp',
+      '/proyectos/fabrica_performatica/fab_perf_11.webp', '/proyectos/fabrica_performatica/fab_perf_12.webp', '/proyectos/fabrica_performatica/fab_perf_13.webp', '/proyectos/fabrica_performatica/fab_perf_14.webp', '/proyectos/fabrica_performatica/fab_perf_15.webp', '/proyectos/fabrica_performatica/fab_perf_16.webp', '/proyectos/fabrica_performatica/fab_perf_17.webp', '/proyectos/fabrica_performatica/fab_perf_18.webp', '/proyectos/fabrica_performatica/fab_perf_19.webp', '/proyectos/fabrica_performatica/fab_perf_20.webp',
+      '/proyectos/fabrica_performatica/fab_perf_21.webp', '/proyectos/fabrica_performatica/fab_perf_22.webp', '/proyectos/fabrica_performatica/fab_perf_23.webp', '/proyectos/fabrica_performatica/fab_perf_24.webp', '/proyectos/fabrica_performatica/fab_perf_25.webp', '/proyectos/fabrica_performatica/fab_perf_26.webp', '/proyectos/fabrica_performatica/fab_perf_27.webp', '/proyectos/fabrica_performatica/fab_perf_28.webp', '/proyectos/fabrica_performatica/fab_perf_29.webp', '/proyectos/fabrica_performatica/fab_perf_30.webp', '/proyectos/fabrica_performatica/fab_perf_31.webp'
     ]
   },
   {
@@ -241,49 +30,44 @@ export const projectsData = [
     title: `Plan maestro : 
       Zona portuaria Mar Del Plata 
       2023`,
-    description: '',
     galleryImages: [
-      master_2, master_3, master_4, master_5, master_6, master_7, master_8,
-      master_9, master_10, master_11, master_12, master_13, master_14, master_15, master_16
+      '/proyectos/plan_maestro_mdq/master_2.webp', '/proyectos/plan_maestro_mdq/master_3.webp', '/proyectos/plan_maestro_mdq/master_4.webp', '/proyectos/plan_maestro_mdq/master_5.webp', '/proyectos/plan_maestro_mdq/master_6.webp', '/proyectos/plan_maestro_mdq/master_7.webp', '/proyectos/plan_maestro_mdq/master_8.webp',
+      '/proyectos/plan_maestro_mdq/master_9.webp', '/proyectos/plan_maestro_mdq/master_10.webp', '/proyectos/plan_maestro_mdq/master_11.webp', '/proyectos/plan_maestro_mdq/master_12.webp', '/proyectos/plan_maestro_mdq/master_13.webp', '/proyectos/plan_maestro_mdq/master_14.webp', '/proyectos/plan_maestro_mdq/master_15.webp', '/proyectos/plan_maestro_mdq/master_16.webp'
     ]
   },
   {
     image: proyecto3,
     title: `Ciudad vertical
     2023`,
-    description: '',
     galleryImages: [
-      Ciu_vert_1, Ciu_vert_2, Ciu_vert_3, Ciu_vert_4, Ciu_vert_5, Ciu_vert_6, Ciu_vert_7, Ciu_vert_8, Ciu_vert_9, Ciu_vert_10,
-      Ciu_vert_11, Ciu_vert_12, Ciu_vert_13, Ciu_vert_14, Ciu_vert_15, Ciu_vert_16, Ciu_vert_17
+      '/proyectos/ciudad_vertical/Ciu_vert_1.webp', '/proyectos/ciudad_vertical/Ciu_vert_2.webp', '/proyectos/ciudad_vertical/Ciu_vert_3.webp', '/proyectos/ciudad_vertical/Ciu_vert_4.webp', '/proyectos/ciudad_vertical/Ciu_vert_5.webp', '/proyectos/ciudad_vertical/Ciu_vert_6.webp', '/proyectos/ciudad_vertical/Ciu_vert_7.webp', '/proyectos/ciudad_vertical/Ciu_vert_8.webp', '/proyectos/ciudad_vertical/Ciu_vert_9.webp', '/proyectos/ciudad_vertical/Ciu_vert_10.webp',
+      '/proyectos/ciudad_vertical/Ciu_vert_11.webp', '/proyectos/ciudad_vertical/Ciu_vert_12.webp', '/proyectos/ciudad_vertical/Ciu_vert_13.webp', '/proyectos/ciudad_vertical/Ciu_vert_14.webp', '/proyectos/ciudad_vertical/Ciu_vert_15.webp', '/proyectos/ciudad_vertical/Ciu_vert_16.webp', '/proyectos/ciudad_vertical/Ciu_vert_17.webp'
     ]
   },
   {
     image: proyecto4,
     title: `Estación fluvial
     2022`,
-    description: '',
     galleryImages: [
-      est_fluv_1, est_fluv_2, est_fluv_3, est_fluv_4, est_fluv_5, est_fluv_6, est_fluv_7,
-      est_fluv_8, est_fluv_9, est_fluv_10, est_fluv_11, est_fluv_12, est_fluv_13, est_fluv_14
+      '/proyectos/est_fluvial/est_fluv_1.webp', '/proyectos/est_fluvial/est_fluv_2.webp', '/proyectos/est_fluvial/est_fluv_3.webp', '/proyectos/est_fluvial/est_fluv_4.webp', '/proyectos/est_fluvial/est_fluv_5.webp', '/proyectos/est_fluvial/est_fluv_6.webp', '/proyectos/est_fluvial/est_fluv_7.webp',
+      '/proyectos/est_fluvial/est_fluv_8.webp', '/proyectos/est_fluvial/est_fluv_9.webp', '/proyectos/est_fluvial/est_fluv_10.webp', '/proyectos/est_fluvial/est_fluv_11.webp', '/proyectos/est_fluvial/est_fluv_12.webp', '/proyectos/est_fluvial/est_fluv_13.webp', '/proyectos/est_fluvial/est_fluv_14.webp'
     ]
   },
   {
     image: proyecto5,
     title: `Vivienda colectiva
     2022`,
-    description: '',
     galleryImages: [
-      viv_colect_0, viv_colect_1, viv_colect_2, viv_colect_3, viv_colect_4, viv_colect_5, viv_colect_6, viv_colect_7, viv_colect_8, viv_colect_9,
-      viv_colect_10, viv_colect_11, viv_colect_12, viv_colect_13, viv_colect_14, viv_colect_15, viv_colect_16, viv_colect_17, viv_colect_18, viv_colect_19
+      '/proyectos/viv_colectiva/viv_colect_0.webp', '/proyectos/viv_colectiva/viv_colect_1.webp', '/proyectos/viv_colectiva/viv_colect_2.webp', '/proyectos/viv_colectiva/viv_colect_3.webp', '/proyectos/viv_colectiva/viv_colect_4.webp', '/proyectos/viv_colectiva/viv_colect_5.webp', '/proyectos/viv_colectiva/viv_colect_6.webp', '/proyectos/viv_colectiva/viv_colect_7.webp', '/proyectos/viv_colectiva/viv_colect_8.webp', '/proyectos/viv_colectiva/viv_colect_9.webp',
+      '/proyectos/viv_colectiva/viv_colect_10.webp', '/proyectos/viv_colectiva/viv_colect_11.webp', '/proyectos/viv_colectiva/viv_colect_12.webp', '/proyectos/viv_colectiva/viv_colect_13.webp', '/proyectos/viv_colectiva/viv_colect_14.webp', '/proyectos/viv_colectiva/viv_colect_15.webp', '/proyectos/viv_colectiva/viv_colect_16.webp', '/proyectos/viv_colectiva/viv_colect_17.webp', '/proyectos/viv_colectiva/viv_colect_18.webp', '/proyectos/viv_colectiva/viv_colect_19.webp'
     ]
   }, {
     image: proyecto6, 
     title: `Vivienda Colectiva: Arte y Trabajo
     2021`,
-    description: '',
     galleryImages: [
-      viv_art_0, viv_art_1, viv_art_2, viv_art_3, viv_art_4, viv_art_5, viv_art_6, viv_art_7, viv_art_8, viv_art_9,
-      viv_art_10, viv_art_11, viv_art_12, viv_art_13, viv_art_14, viv_art_15, viv_art_16, viv_art_17
+      '/proyectos/VivColecArtYtrabajo/viv_art0.webp', '/proyectos/VivColecArtYtrabajo/viv_art1.webp', '/proyectos/VivColecArtYtrabajo/viv_art2.webp', '/proyectos/VivColecArtYtrabajo/viv_art3.webp', '/proyectos/VivColecArtYtrabajo/viv_art4.webp', '/proyectos/VivColecArtYtrabajo/viv_art5.webp', '/proyectos/VivColecArtYtrabajo/viv_art6.webp', '/proyectos/VivColecArtYtrabajo/viv_art7.webp', '/proyectos/VivColecArtYtrabajo/viv_art8.webp', '/proyectos/VivColecArtYtrabajo/viv_art9.webp',
+      '/proyectos/VivColecArtYtrabajo/viv_art10.webp', '/proyectos/VivColecArtYtrabajo/viv_art11.webp', '/proyectos/VivColecArtYtrabajo/viv_art12.webp', '/proyectos/VivColecArtYtrabajo/viv_art13.webp', '/proyectos/VivColecArtYtrabajo/viv_art14.webp', '/proyectos/VivColecArtYtrabajo/viv_art15.webp', '/proyectos/VivColecArtYtrabajo/viv_art16.webp', '/proyectos/VivColecArtYtrabajo/viv_art17.webp'
     ]
   },
   
@@ -291,10 +75,9 @@ export const projectsData = [
     image: proyecto7, 
     title: `Biblioteca San Nicolás
     2020`,
-    description: '',
     galleryImages: [
-      biblio0, biblio1, biblio2, biblio3, biblio4, biblio5, biblio6, biblio7, biblio8, biblio9,
-      biblio10, biblio11, biblio12, biblio13, biblio14, biblio15
+      '/proyectos/BibliotecaSanNicolas/biblio0.webp', '/proyectos/BibliotecaSanNicolas/biblio1.webp', '/proyectos/BibliotecaSanNicolas/biblio2.webp', '/proyectos/BibliotecaSanNicolas/biblio3.webp', '/proyectos/BibliotecaSanNicolas/biblio4.webp', '/proyectos/BibliotecaSanNicolas/biblio5.webp', '/proyectos/BibliotecaSanNicolas/biblio6.webp', '/proyectos/BibliotecaSanNicolas/biblio7.webp', '/proyectos/BibliotecaSanNicolas/biblio8.webp', '/proyectos/BibliotecaSanNicolas/biblio9.webp',
+      '/proyectos/BibliotecaSanNicolas/biblio10.webp', '/proyectos/BibliotecaSanNicolas/biblio11.webp', '/proyectos/BibliotecaSanNicolas/biblio12.webp', '/proyectos/BibliotecaSanNicolas/biblio13.webp', '/proyectos/BibliotecaSanNicolas/biblio14.webp', '/proyectos/BibliotecaSanNicolas/biblio15.webp'
     ]
   },
   
@@ -302,300 +85,241 @@ export const projectsData = [
     image: proyecto8, 
     title: `Concurso Nueva Estación de Facultad de Derecho
    2020`,
-    description: '',
     galleryImages: [
-      concurso_estacion_facultad_1, concurso_estacion_facultad_2
+      '/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_1.jpg', '/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_2.jpg'
     ]
   }
 ];
 
 // Array de datos para la sección de bitacora
 export const bitacoraData = [
+  // Todas las imágenes usan el prefijo /bitacora/ y se eliminó el campo 'description'
   {
-    image: bitacora1,
+    image: '/bitacora/bitacora1.webp',
     title: '1. ',
-    description: '',
   },
   {
-    image: bitacora2,
+    image: '/bitacora/bitacora2.webp',
     title: '2. ',
-    description: '',
   },
   {
-    image: bitacora3,
+    image: '/bitacora/bitacora3.webp',
     title: '3. ',
-    description: '',
   },
   {
-    image: bitacora4,
+    image: '/bitacora/bitacora4.webp',
     title: '4. ',
-    description: '',
   },
   {
-    image: bitacora5,
+    image: '/bitacora/bitacora5.webp',
     title: '5. ',
-    description: '',
   },
   {
-    image: bitacora6,
+    image: '/bitacora/bitacora6.webp',
     title: '6. ',
-    description: '',
   },
   {
-    image: bitacora7,
+    image: '/bitacora/bitacora7.webp',
     title: '7. ',
-    description: '',
   },
   {
-    image: bitacora8,
+    image: '/bitacora/bitacora8.webp',
     title: '8. ',
-    description: '',
   },
   {
-    image: bitacora9,
+    image: '/bitacora/bitacora9.webp',
     title: '9. ',
-    description: '',
   },
   {
-    image: bitacora10,
+    image: '/bitacora/bitacora10.webp',
     title: '10. ',
-    description: '',
   },
   {
-    image: bitacora11,
+    image: '/bitacora/bitacora11.webp',
     title: '11. ',
-    description: '',
   },
   {
-    image: bitacora12,
+    image: '/bitacora/bitacora12.webp',
     title: '12. ',
-    description: '',
   },
   {
-    image: bitacora13,
+    image: '/bitacora/bitacora13.webp',
     title: '13. ',
-    description: '',
   },
   {
-    image: bitacora14,
+    image: '/bitacora/bitacora14.webp',
     title: '14. ',
-    description: '',
   },
   {
-    image: bitacora15,
+    image: '/bitacora/bitacora15.webp',
     title: '15. ',
-    description: '',
   },
   {
-    image: bitacora16,
+    image: '/bitacora/bitacora16.webp',
     title: '16. ',
-    description: '',
   },
   {
-    image: bitacora17,
+    image: '/bitacora/bitacora17.webp',
     title: '17. ',
-    description: '',
   },
   {
-    image: bitacora18,
+    image: '/bitacora/bitacora18.webp',
     title: '18. ',
-    description: '',
   },
   {
-    image: bitacora19,
+    image: '/bitacora/bitacora19.webp',
     title: '19. ',
-    description: '',
   },
   {
-    image: bitacora20,
+    image: '/bitacora/bitacora20.webp',
     title: '20. ',
-    description: '',
   },
   {
-    image: bitacora21,
+    image: '/bitacora/bitacora21.webp',
     title: '21. ',
-    description: '',
   },
   {
-    image: bitacora22,
+    image: '/bitacora/bitacora22.webp',
     title: '22. ',
-    description: '',
   },
   {
-    image: bitacora23,
+    image: '/bitacora/bitacora23.webp',
     title: '23. ',
-    description: '',
   },
   {
-    image: bitacora24,
+    image: '/bitacora/bitacora24.webp',
     title: '24. ',
-    description: '',
   },
   {
-    image: bitacora25,
+    image: '/bitacora/bitacora25.webp',
     title: '25. ',
-    description: '',
   },
   {
-    image: bitacora26,
+    image: '/bitacora/bitacora26.webp',
     title: '26. ',
-    description: '',
   },
   {
-    image: bitacora27,
+    image: '/bitacora/bitacora27.webp',
     title: '27. ',
-    description: '',
   },
   {
-    image: bitacora28,
+    image: '/bitacora/bitacora28.webp',
     title: '28. ',
-    description: '',
   },
   {
-    image: bitacora29,
+    image: '/bitacora/bitacora29.webp',
     title: '29. ',
-    description: '',
   },
   {
-    image: bitacora30,
+    image: '/bitacora/bitacora30.webp',
     title: '30. ',
-    description: '',
   },
   {
-    image: bitacora31,
+    image: '/bitacora/bitacora31.webp',
     title: '31. ',
-    description: '',
   },
   {
-    image: bitacora32,
+    image: '/bitacora/bitacora32.webp',
     title: '32. ',
-    description: '',
   },
   {
-    image: bitacora33,
+    image: '/bitacora/bitacora33.webp',
     title: '33. ',
-    description: '',
   },
   {
-    image: bitacora34,
+    image: '/bitacora/bitacora34.webp',
     title: '34. ',
-    description: '',
   },
   {
-    image: bitacora35,
+    image: '/bitacora/bitacora35.webp',
     title: '35. ',
-    description: '',
   },
   {
-    image: bitacora36,
+    image: '/bitacora/bitacora36.webp',
     title: '36. ',
-    description: '',
   },
   {
-    image: bitacora37,
+    image: '/bitacora/bitacora37.webp',
     title: '37. ',
-    description: '',
   },
   {
-    image: bitacora38,
+    image: '/bitacora/bitacora38.webp',
     title: '38. ',
-    description: '',
   },
   {
-    image: bitacora39,
+    image: '/bitacora/bitacora39.webp',
     title: '39. ',
-    description: '',
   },
   {
-    image: bitacora40,
+    image: '/bitacora/bitacora40.webp',
     title: '40. ',
-    description: '',
   },
   {
-    image: bitacora41,
+    image: '/bitacora/bitacora41.webp',
     title: '41. ',
-    description: '',
   },
   {
-    image: bitacora42,
+    image: '/bitacora/bitacora42.webp',
     title: '42. ',
-    description: '',
   },
   {
-    image: bitacora43,
+    image: '/bitacora/bitacora43.webp',
     title: '43. ',
-    description: '',
   },
   {
-    image: bitacora44,
+    image: '/bitacora/bitacora44.webp',
     title: '44. ',
-    description: '',
   },
   {
-    image: bitacora45,
+    image: '/bitacora/bitacora45.webp',
     title: '45. ',
-    description: '',
   },
   {
-    image: bitacora46,
+    image: '/bitacora/bitacora46.webp',
     title: '46. ',
-    description: '',
   },
   {
-    image: bitacora47,
+    image: '/bitacora/bitacora47.webp',
     title: '47. ',
-    description: '',
   },
   {
-    image: bitacora48,
+    image: '/bitacora/bitacora48.webp',
     title: '48. ',
-    description: '',
   },
   {
-    image: bitacora49,
+    image: '/bitacora/bitacora49.webp',
     title: '49. ',
-    description: '',
   },
   {
-    image: bitacora50,
+    image: '/bitacora/bitacora50.webp',
     title: '50. ',
-    description: '',
   },
   {
-    image: bitacora51,
+    image: '/bitacora/bitacora51.webp',
     title: '51. ',
-    description: '',
   },
 
   {
-    image: bitacora52,
+    image: '/bitacora/bitacora52.webp',
     title: '52. ',
-    description: '',
   },
 
   {
-    image: bitacora53,
+    image: '/bitacora/bitacora53.webp',
     title: '53. ',
-    description: '',
   },
 
   {
-    image: bitacora54,
+    image: '/bitacora/bitacora54.webp',
     title: '54. ',
-    description: '',
   },
 
   {
-    image: bitacora55,
+    image: '/bitacora/bitacora55.webp',
     title: '55. ',
-    description: '',
   },
   {
-    image: bitacora56,
+    image: '/bitacora/bitacora56.webp',
     title: '56. ',
-    description: '',
   },
-
-
-
 ];
