@@ -5,6 +5,7 @@ import Header from "../../components/Header/Header";
 import SobreMi from "../../components/SobreMi/SobreMi";
 import Proyectos from "../../components/Proyectos/Proyectos";
 import Bitacora from "../../components/Bitacora/Bitacora";
+import Footer from "../../components/Footer/Footer";
 
 import "./Home.css";
 
@@ -15,10 +16,11 @@ function Home() {
   return (
     <div className="home-container">
       <Header texts={homeTexts} />
-      <main className="main-content">   
+      <main className="main-content">
         <SobreMi />
         <Proyectos texts={homeTexts} />
         <Bitacora texts={homeTexts} />
+        <Footer />
       </main>
 
     </div>

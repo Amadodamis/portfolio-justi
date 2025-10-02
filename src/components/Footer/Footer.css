@@ -1,0 +1,52 @@
+.footer-section {
+  padding: 60px 15%;
+  background-color: var(--color1); /* usa el mismo fondo que otras secciones */
+  color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-family: var(--font-title);
+}
+
+.footer-section h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--color2);
+  margin-bottom: 10px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--color2);
+  font-size: 1rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.contact-item img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  opacity: 0.85;
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+  color: var(--color2);
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  text-align: center;
+}

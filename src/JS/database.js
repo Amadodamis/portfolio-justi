@@ -64,6 +64,9 @@ import proyecto2 from '../assets/imgs/proyectos/plan_maestro_mdq/master_1.webp';
 import proyecto3 from '../assets/imgs/proyectos/ciudad_vertical/Ciu_vert_1.webp';
 import proyecto4 from '../assets/imgs/proyectos/est_fluvial/est_fluv_1.webp';
 import proyecto5 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_0.webp';
+import proyecto6 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art0.webp'
+import proyecto7 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio0.webp';
+import proyecto8 from '../assets/imgs/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_1.jpg';
 
 
 // Importaciones para Fábrica Performática (proyecto1: 1 a 31)
@@ -174,6 +177,51 @@ import viv_colect_17 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_17.
 import viv_colect_18 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_18.webp';
 import viv_colect_19 from '../assets/imgs/proyectos/viv_colectiva/viv_colect_19.webp';
 
+// Importaciones para Vivienda Colectiva arte ytrabajo (proyecto6: 0 a 17)
+import viv_art_0 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art0.webp';
+import viv_art_1 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art1.webp';
+import viv_art_2 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art2.webp';
+import viv_art_3 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art3.webp';
+import viv_art_4 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art4.webp';
+import viv_art_5 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art5.webp';
+import viv_art_6 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art6.webp';
+import viv_art_7 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art7.webp';
+import viv_art_8 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art8.webp';
+import viv_art_9 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art9.webp';
+import viv_art_10 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art10.webp';
+import viv_art_11 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art11.webp';
+import viv_art_12 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art12.webp';
+import viv_art_13 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art13.webp';
+import viv_art_14 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art14.webp';
+import viv_art_15 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art15.webp';
+import viv_art_16 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art16.webp';
+import viv_art_17 from '../assets/imgs/proyectos/VivColecArtYtrabajo/viv_art17.webp';
+
+// Importaciones para Vivienda Colectiva (proyecto7: 0 a 19)
+
+import biblio0 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio0.webp';
+import biblio1 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio1.webp';
+import biblio2 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio2.webp';
+import biblio3 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio3.webp';
+import biblio4 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio4.webp';
+import biblio5 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio5.webp';
+import biblio6 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio6.webp';
+import biblio7 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio7.webp';
+import biblio8 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio8.webp';
+import biblio9 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio9.webp';
+import biblio10 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio10.webp';
+import biblio11 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio11.webp';
+import biblio12 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio12.webp';
+import biblio13 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio13.webp';
+import biblio14 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio14.webp';
+import biblio15 from '../assets/imgs/proyectos/BibliotecaSanNicolas/biblio15.webp';
+
+
+// Importaciones para Concurso Nueva Estacion de facultad de derecho (proyecto8: 0 a 1)
+import concurso_estacion_facultad_1 from '../assets/imgs/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_1.jpg';
+import concurso_estacion_facultad_2 from '../assets/imgs/proyectos/Concurso_estacion_facultad_derecho/concurso_estacion_fac_derecho_2.jpg';
+
+
 // Array de datos para la sección de proyectos
 export const projectsData = [
   {
@@ -227,6 +275,36 @@ export const projectsData = [
     galleryImages: [
       viv_colect_0, viv_colect_1, viv_colect_2, viv_colect_3, viv_colect_4, viv_colect_5, viv_colect_6, viv_colect_7, viv_colect_8, viv_colect_9,
       viv_colect_10, viv_colect_11, viv_colect_12, viv_colect_13, viv_colect_14, viv_colect_15, viv_colect_16, viv_colect_17, viv_colect_18, viv_colect_19
+    ]
+  }, {
+    image: proyecto6, 
+    title: `Vivienda Colectiva: Arte y Trabajo
+    2021`,
+    description: '',
+    galleryImages: [
+      viv_art_0, viv_art_1, viv_art_2, viv_art_3, viv_art_4, viv_art_5, viv_art_6, viv_art_7, viv_art_8, viv_art_9,
+      viv_art_10, viv_art_11, viv_art_12, viv_art_13, viv_art_14, viv_art_15, viv_art_16, viv_art_17
+    ]
+  },
+  
+  {
+    image: proyecto7, 
+    title: `Biblioteca San Nicolás
+    2020`,
+    description: '',
+    galleryImages: [
+      biblio0, biblio1, biblio2, biblio3, biblio4, biblio5, biblio6, biblio7, biblio8, biblio9,
+      biblio10, biblio11, biblio12, biblio13, biblio14, biblio15
+    ]
+  },
+  
+  {
+    image: proyecto8, 
+    title: `Concurso Nueva Estación de Facultad de Derecho
+   2020`,
+    description: '',
+    galleryImages: [
+      concurso_estacion_facultad_1, concurso_estacion_facultad_2
     ]
   }
 ];
@@ -512,7 +590,7 @@ export const bitacoraData = [
     title: '55. ',
     description: '',
   },
-{
+  {
     image: bitacora56,
     title: '56. ',
     description: '',
