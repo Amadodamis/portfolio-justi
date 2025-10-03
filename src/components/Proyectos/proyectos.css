@@ -5,8 +5,10 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* 👈 Aligns content to the start */
-    justify-content: flex-start; /* 👈 Prevents centering */
+    align-items: flex-start;
+    /* 👈 Aligns content to the start */
+    justify-content: flex-start;
+    /* 👈 Prevents centering */
 }
 
 .proyectos-section h2 {
@@ -29,7 +31,8 @@
     grid-template-columns: repeat(3, 1fr);
     /* Add space between cells */
     gap: 40px;
-    justify-content: center; /* Center the cards horizontally */
+    justify-content: center;
+    /* Center the cards horizontally */
     flex: 1;
 }
 
@@ -43,7 +46,7 @@
 
 /* New style to align at the end */
 .icon-arrow.align-end {
- align-self: flex-end;
+    align-self: flex-end;
 }
 
 /* Invisible placeholders to maintain the 6-item grid */
@@ -52,10 +55,67 @@
 }
 
 
-@media (min-width: 319px) and (max-width: 768px) {
-    .proyectos-section {
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
+
+/* ================================================= */
+/* MEDIA QUERY: RANGO DE TABLET/MÓVIL (319px a 768px) */
+/* ================================================= */
+@media (min-width: 319px) and (max-width: 768px) {
+
+    /* 1. AJUSTE GENERAL: Aplica el padding para todo el rango */
+    .proyectos-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* ------------------------------------------- */
+    /* MEDIA QUERY ANIDADA: MÓVIL PEQUEÑO (0px a 495px) */
+    /* ------------------------------------------- */
+    @media (max-width: 495px) {
+        /* Usamos max-width: 495px para incluir 319px */
+
+        /* 2. LAYOUT: Cuadrícula de una sola columna (para los 2 proyectos) */
+        .proyectos-container {
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        /* 3. ENVOLTORIO: Reorganiza el contenedor para poner flechas y proyectos en columna */
+        .proyectos-wrapper {
+            flex-direction: column;
+            gap: 20px;
+            position: relative
+        }
+
+        /* Aseguramos que las flechas sigan visibles */
+        .icon-arrow {
+            display: block;
+
+            position: absolute;
+            /* 👈 Posicionamiento respecto a .proyectos-wrapper */
+            top: 50%;
+            /* Coloca el borde superior de la flecha al 50% de la altura */
+            transform: translateY(-50%);
+            /* 👈 ESTA ES LA CLAVE: Sube la flecha la mitad de su propia altura para CENTRARLA perfectamente */
+            z-index: 10;
+            /* Puedes ajustar el tamaño aquí si es necesario */
+            width: 30px;
+            height: 30px;
+        }
+
+        /* 4. POSICIÓN DE LA FLECHA IZQUIERDA */
+        /* Como es el primer <img> en el JSX, no necesita una clase extra, pero para ser más específico... */
+        .proyectos-wrapper img:first-child {
+            left: 0;
+            /* Pega al borde izquierdo */
+        }
+
+        /* 5. POSICIÓN DE LA FLECHA DERECHA */
+        .proyectos-wrapper img:last-child {
+            right: 0;
+            /* Pega al borde derecho */
+            left: auto;
+            /* Aseguramos que 'left' no interfiera */
+        }
+    }
 }

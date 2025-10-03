@@ -62,7 +62,7 @@
   /* 1. Reconfigurar la barra de navegación principal */
   .main-nav {
     left: 0;
-
+    width: 100%;
     padding: 0.8rem 1.5rem;
     /* Ajuste de padding para móvil/tablet */
     display: flex;

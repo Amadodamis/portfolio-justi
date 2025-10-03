@@ -51,10 +51,58 @@
 }
 
 
+/* ================================================= */
+/* MEDIA QUERY: RANGO DE TABLET/MÓVIL (319px a 768px) */
+/* ================================================= */
 @media (min-width: 319px) and (max-width: 768px) {
+    
     .bitacora-section {
         padding-left: 5%;
         padding-right: 5%;
     }
+    
+    /* ------------------------------------------- */
+    /* MEDIA QUERY ANIDADA: MÓVIL PEQUEÑO (0px a 495px) */
+    /* ------------------------------------------- */
+    @media (max-width: 495px) {
+        
+        /* 2. LAYOUT: Cuadrícula de una sola columna (para los 2 proyectos) */
+        .bitacora-container {
+            grid-template-columns: 1fr; 
+            gap: 30px;
+            /* Opcional: Centrar el contenedor de cards si el wrapper usa flex-direction: column */
+            margin: 0 auto; 
+            width: 80%; /* Ajustar el ancho para dejar espacio a los lados para las flechas */
+        }
 
+        /* 3. ENVOLTORIO: Necesita ser relativo para posicionar las flechas */
+        .bitacora-wrapper {
+            flex-direction: column; 
+            gap: 20px;
+            position: relative; /* 👈 Punto de referencia para las flechas */
+            align-items: center; /* Centrar el bitacora-container horizontalmente */
+        }
+        
+        /* 4. POSICIONAMIENTO ABSOLUTO de las flechas */
+        .icon-arrow {
+            display: block; 
+            position: absolute; /* Posicionamiento respecto a .bitacora-wrapper */
+            top: 50%; /* Coloca el borde superior de la flecha al 50% */
+            transform: translateY(-50%); /* Centra la flecha verticalmente */
+            z-index: 10;
+            width: 30px;
+            height: 30px;
+        }
+
+        /* 5. POSICIÓN DE LA FLECHA IZQUIERDA */
+        .bitacora-wrapper img:first-child { 
+            left: 0; 
+        }
+
+        /* 6. POSICIÓN DE LA FLECHA DERECHA */
+        .bitacora-wrapper img:last-child {
+            right: 0; 
+            left: auto;
+        }
+    }
 }

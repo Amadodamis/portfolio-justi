@@ -1,15 +1,37 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react'; // 👈 Importamos useEffect
 import './Bitacora.css';
 import Cards from '../Cards/Cards';
 import { bitacoraData } from '../../JS/database';
 import arrowLeft from "../../assets/icons/arrow_left.png";
 import arrowRight from "../../assets/icons/arrow_right.png";
-import ModalBitacora from '../ModalBitacora/ModalBitacora'; // 👈 Importamos el nuevo modal
+import ModalBitacora from '../ModalBitacora/ModalBitacora';
 
 function Bitacora({ texts }) {
   const [currentPage, setCurrentPage] = useState(0);
-  const [selectedImage, setSelectedImage] = useState(null); // 👈 Nuevo estado
-  const itemsPerPage = 6;
+  const [selectedImage, setSelectedImage] = useState(null); 
+  
+  // 1. itemsPerPage ahora es un estado con valor inicial 6 (desktop)
+  const [itemsPerPage, setItemsPerPage] = useState(6); 
+  
+  // 2. Lógica para detectar el tamaño de pantalla y ajustar itemsPerPage
+  useEffect(() => {
+    const handleResize = () => {
+      // Si el ancho es <= 495px, mostramos 2 ítems por página
+      if (window.innerWidth <= 495) {
+        setItemsPerPage(2); 
+      } else {
+        // Para anchos > 495px (incluyendo tablets y escritorio), mostramos 6 ítems
+        setItemsPerPage(6); 
+      }
+      // Resetea a la página 0 cuando el conteo de ítems cambia
+      setCurrentPage(0);
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const totalPages = Math.ceil(bitacoraData.length / itemsPerPage);
 
@@ -30,15 +52,15 @@ function Bitacora({ texts }) {
     setCurrentPage((prev) => (prev === totalPages - 1 ? 0 : prev + 1));
   };
 
-  // Nueva lógica para determinar si hay menos de 6 ítems
-  const alignArrows = currentItems.length < 3;
+  // Lógica para determinar si hay menos del total de ítems por página
+  const alignArrows = currentItems.length < itemsPerPage && currentItems.length > 0;
 
-  // 👇 Función para abrir el modal
+  // Función para abrir el modal
   const handleCardClick = (imageSrc) => {
     setSelectedImage(imageSrc);
   };
 
-  // 👇 Función para cerrar el modal
+  // Función para cerrar el modal
   const handleCloseModal = () => {
     setSelectedImage(null);
   };
@@ -53,7 +75,7 @@ function Bitacora({ texts }) {
         <img
           src={arrowLeft}
           alt="icon-arrow-left-alt"
-          //  Aplicación de la clase condicional
+          // Aplicación de la clase condicional
           className={`icon-arrow ${alignArrows ? 'align-end' : ''}`}
           onClick={handlePrev}
         />
@@ -61,7 +83,7 @@ function Bitacora({ texts }) {
         {/* Contenedor de cards */}
         <div className="bitacora-container">
           {currentItems.map((item, index) => (
-            // 👇 Agregamos el div con el evento onClick
+            // Agregamos el div con el evento onClick
             <div key={index} onClick={() => handleCardClick(item.image)}>
               <Cards
                 image={item.image}
@@ -80,13 +102,13 @@ function Bitacora({ texts }) {
         <img
           src={arrowRight}
           alt="icon-arrow-right-alt"
-          // 👈 Aplicación de la clase condicional
+          // Aplicación de la clase condicional
          className={`icon-arrow ${alignArrows ? 'align-end' : ''}`}
           onClick={handleNext}
         />
       </div>
 
-      {/* 👇 Render del Modal de Bitácora */}
+      {/* Render del Modal de Bitácora */}
       {selectedImage && (
         <ModalBitacora imageSrc={selectedImage} onClose={handleCloseModal} />
       )}
